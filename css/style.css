@@ -92,8 +92,28 @@ a.call {
 }
 
 .text {
-  /* background: #22201b; */
   width: 60%;
-  padding: 2em;
-  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.social-links {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+
+.social-links i {
+  margin: 1em 0;
+  background: rgba(255, 255, 255, .3);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+.introduction .container {
+  display: flex;
+  justify-content: space-between;
 }
