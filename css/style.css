@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  background: url('../img/intro_bg.jpg');
+  overflow: hidden;
+}
+
+nav,
+nav ul {
+  display: flex;
+}
+
+nav {
+  width: 85%;
+  justify-content: space-between;
+  /* background: purple; */
+  margin: 1em auto;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 1px solid #48487f;
+  padding-bottom: 1em;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin: 0 1.2em;
+  font-size: .8em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #48487f;
+}
+
+a.logo {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2em;
+}
+
+a.call {
+  background: orange;
+  padding: .6em 1em;
+  font-size: .9em;
+  border-radius: 3px;
+  font-weight: bold;
+}
