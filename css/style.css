@@ -4,7 +4,8 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Vollkorn', serif;
 }
 
 header {
@@ -21,7 +22,6 @@ nav {
   justify-content: space-between;
   margin: .5em auto;
   align-items: center;
-  font-family: 'Open Sans', sans-serif;
 }
 
 nav ul {
@@ -30,17 +30,16 @@ nav ul {
 
 nav li {
   margin: 0 1.2em;
-  font-size: .8em;
+  font-size: 1em;
 }
 
 nav a {
   text-decoration: none;
-  color: #555;
+  color: #222;
 }
 
 a.logo {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 1.2em;
+  font-size: 1.6em;
   color: orange;
   font-weight: bold;
 }
@@ -49,7 +48,7 @@ a.call,
 .product-desc button {
   background: orange;
   padding: .6em 1em;
-  font-size: .9em;
+  font-size: 1em;
   border-radius: 3px;
   box-shadow: 5px 10px 20px rgba(0, 0, 0, .2);
   color: white;
@@ -64,40 +63,6 @@ a.call,
   /* background-image: linear-gradient(orange, yellow); */
   background-size: 400px;
 }
-
-/* .introduction h1 {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 3em;
-  color: rgba(255, 255, 255, .7);
-} */
-
-/* .introduction span {
-  color: orange
-} */
-
-/* .introduction p {
-  margin: 1.5em 0 2em 0;
-  color: rgba(255, 255, 255, .8);
-  font-family: 'Open Sans', serif;
-  font-size: .9em;
-  line-height: 1.5;
-} */
-
-/* .introduction a {
-  color: rgba(255, 255, 255, .7);
-  text-decoration: none;
-  font-family: 'Open Sans', serif;
-  border-radius: 3px;
-  background: #48487f;
-  padding: .7em 2em;
-  font-size: .9em;
-  font-weight: bold;
-} */
-
-/* .text {
-  width: 60%;
-  padding: 2em 0;
-} */
 
 .content,
 .recent-designs,
@@ -114,22 +79,24 @@ a.call,
 
 .product-img img {
   margin: 6em 1em 6em 8em;
-  width: 550px;
+  width: 700px;
 }
 
 .product-desc {
-  margin: 11em 8em 0 18em;
+  margin: 11em 8em 0 20em;
 }
 
 h1 {
-  font-size: 1.85em;
+  font-size: 2.4em;
   margin: 0 0 .7em 0;
+  color: #222;
+  font-weight: 600;
 }
 
 .product-desc p,
 .kitchens-show h6,
 .kitchens-show p {
-  font-size: .8em;
+  font-size: 1em;
   line-height: 1.7;
   color: #777;
 }
@@ -137,6 +104,7 @@ h1 {
 .product-desc button {
   border: none;
   margin: 2em 0 0 0;
+  font-family: 'Vollkorn', serif;
 }
 
 
@@ -148,6 +116,10 @@ h1 {
 .recent-heading {
   width: 20%;
   margin: 6em 1em 0 8em;
+}
+
+.kitchens-show {
+  box-shadow: 5px 0px 20px rgba(0, 0, 0, .1);
 }
 
 .kitchens-show div {
@@ -162,7 +134,6 @@ h1 {
   height: 200px;
   background-color: #ddd;
   margin: 0 0 .8em 0;
-  background-image: url(../img/decok1.jpg);
   background-size: cover;
 }
 
@@ -180,4 +151,8 @@ h1 {
 
 #image-4 {
   background-image: url(../img/decok4.jpeg);
+}
+
+.kitchens-show h6 {
+  color: #222;
 }
