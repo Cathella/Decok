@@ -60,7 +60,9 @@ a.call,
 
 .introduction {
   /* padding: 9em 0 9em 0; */
-  background: #f8f8f8;
+  background-color: #f8f8f8;
+  /* background-image: linear-gradient(orange, yellow); */
+  background-size: 400px;
 }
 
 /* .introduction h1 {
@@ -97,7 +99,8 @@ a.call,
   padding: 2em 0;
 } */
 
-.content {
+.content,
+.recent-designs {
   display: flex;
   flex-direction: row;
 }
@@ -125,4 +128,10 @@ h1 {
 .product-desc button {
   border: none;
   margin: 2em 0 0 0;
+}
+
+
+
+.recent-designs {
+
 }
