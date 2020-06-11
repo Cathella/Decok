@@ -106,13 +106,19 @@ a.call,
   flex-direction: row;
 }
 
+.product-img {
+  background-color: #48487f;
+  position: relative;
+  width: 40%;
+}
+
 .product-img img {
   margin: 6em 1em 6em 8em;
   width: 550px;
 }
 
 .product-desc {
-  margin: 11em 8em 0 2em;
+  margin: 11em 8em 0 18em;
 }
 
 h1 {
