@@ -45,7 +45,8 @@ a.logo {
   font-weight: bold;
 }
 
-a.call {
+a.call,
+.product-desc button {
   background: orange;
   padding: .6em 1em;
   font-size: .9em;
@@ -102,10 +103,26 @@ a.call {
 }
 
 .product-img img {
-  margin: 6em 1em 6em 10em;
+  margin: 6em 1em 6em 8em;
   width: 550px;
 }
 
 .product-desc {
-  margin: 11em 3em 0 2em;
+  margin: 11em 8em 0 2em;
+}
+
+h1 {
+  font-size: 1.85em;
+  margin: 0 0 .7em 0;
+}
+
+.product-desc p {
+  font-size: .8em;
+  line-height: 1.7;
+  color: #777;
+}
+
+.product-desc button {
+  border: none;
+  margin: 2em 0 0 0;
 }
