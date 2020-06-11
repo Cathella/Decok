@@ -62,7 +62,7 @@ a.call,
   /* padding: 9em 0 9em 0; */
   background-color: #f8f8f8;
   /* background-image: linear-gradient(orange, yellow); */
-  background-size: 400px;
+  /* background-size: 400px; */
 }
 
 .content,
@@ -79,7 +79,7 @@ a.call,
 }
 
 .product-img img {
-  margin: 6em 1em 6em 8em;
+  margin: 7.5em 1em 7.5em 8em;
   width: 700px;
 }
 
@@ -99,7 +99,7 @@ h1 {
 .kitchens-show p {
   font-size: 1em;
   line-height: 1.7;
-  color: #777;
+  color: #aaa;
 }
 
 .product-desc button {
@@ -162,4 +162,5 @@ h1 {
   position: relative;
   top: 30px;
   text-decoration: none;
+  left: 8.7em;
 }
