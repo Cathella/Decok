@@ -100,7 +100,8 @@ a.call,
 } */
 
 .content,
-.recent-designs {
+.recent-designs,
+.kitchens-show {
   display: flex;
   flex-direction: row;
 }
@@ -119,7 +120,9 @@ h1 {
   margin: 0 0 .7em 0;
 }
 
-.product-desc p {
+.product-desc p,
+.kitchens-show h6,
+.kitchens-show p {
   font-size: .8em;
   line-height: 1.7;
   color: #777;
@@ -133,5 +136,42 @@ h1 {
 
 
 .recent-designs {
+  padding: 4.5em 0;
+}
 
+.recent-heading {
+  width: 20%;
+  margin: 6em 1em 0 8em;
+}
+
+.kitchens-show div {
+  background: white;
+  border: 1px solid #eee;
+  border-right: none;
+  padding: 1em;
+  margin: 0 0 0 0px;
+}
+
+.image-section {
+  height: 200px;
+  background-color: #ddd;
+  margin: 0 0 .8em 0;
+  background-image: url(../img/decok1.jpg);
+  background-size: cover;
+}
+
+#image-1 {
+  background-image: url(../img/decok1.jpg);
+}
+
+#image-2 {
+  background-image: url(../img/decok2.jpg);
+}
+
+#image-3 {
+  background-image: url(../img/decok5.jpeg);
+}
+
+#image-4 {
+  background-image: url(../img/decok4.jpeg);
 }
