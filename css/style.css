@@ -45,7 +45,8 @@ a.logo {
 }
 
 a.call,
-.product-desc button {
+.product-desc button,
+.details {
   background: orange;
   padding: .6em 1em;
   font-size: 1em;
@@ -110,7 +111,7 @@ h1 {
 
 
 .recent-designs {
-  padding: 4.5em 0;
+  padding: 6em 0;
 }
 
 .recent-heading {
@@ -155,4 +156,10 @@ h1 {
 
 .kitchens-show h6 {
   color: #222;
+}
+
+.details {
+  position: relative;
+  top: 30px;
+  text-decoration: none;
 }
