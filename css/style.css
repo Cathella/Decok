@@ -9,9 +9,7 @@
 }
 
 header {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/intro_bg.jpg');
-  background-size: cover;
-  overflow: hidden;
+  border-bottom: 1px solid rgba(0, 0, 0, .15);
 }
 
 nav,
@@ -20,13 +18,11 @@ nav ul {
 }
 
 nav {
-  width: 85%;
+  width: 95%;
   justify-content: space-between;
-  margin: 1em auto;
+  margin: .5em auto;
   align-items: center;
   font-family: 'Open Sans', sans-serif;
-  border-bottom: 1px solid rgba(255, 255, 255, .15);
-  padding-bottom: 1em;
 }
 
 nav ul {
@@ -40,13 +36,14 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: #555;
 }
 
 a.logo {
   font-family: 'Libre Baskerville', serif;
-  font-size: 2em;
+  font-size: 1.2em;
   color: orange;
+  font-weight: bold;
 }
 
 a.call {
@@ -54,8 +51,8 @@ a.call {
   padding: .6em 1em;
   font-size: .9em;
   border-radius: 3px;
-  font-weight: bold;
   box-shadow: 5px 10px 20px rgba(0, 0, 0, .2);
+  color: white;
 }
 
 .introduction {
@@ -94,26 +91,4 @@ a.call {
 .text {
   width: 60%;
   padding: 2em 0;
-}
-
-.social-links {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  margin-top: 2em;
-}
-
-.social-links i {
-  margin: 1em 0;
-  background: rgba(255, 255, 255, .3);
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50%;
-}
-
-.introduction .container {
-  display: flex;
-  justify-content: space-between;
 }
