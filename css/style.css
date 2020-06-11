@@ -3,13 +3,12 @@
   margin: 0;
 }
 
-.container {
-  width: 85%;
-  margin: 0 auto;
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
-  border-bottom: 1px solid rgba(0, 0, 0, .15);
+  /* border-bottom: 1px solid rgba(0, 0, 0, .15); */
 }
 
 nav,
@@ -55,29 +54,33 @@ a.call {
   color: white;
 }
 
+
+
+
 .introduction {
-  padding: 9em 0 9em 0;
+  /* padding: 9em 0 9em 0; */
+  background: #f8f8f8;
 }
 
-.introduction h1 {
+/* .introduction h1 {
   font-family: 'Libre Baskerville', serif;
   font-size: 3em;
   color: rgba(255, 255, 255, .7);
-}
+} */
 
-.introduction span {
+/* .introduction span {
   color: orange
-}
+} */
 
-.introduction p {
+/* .introduction p {
   margin: 1.5em 0 2em 0;
   color: rgba(255, 255, 255, .8);
   font-family: 'Open Sans', serif;
   font-size: .9em;
   line-height: 1.5;
-}
+} */
 
-.introduction a {
+/* .introduction a {
   color: rgba(255, 255, 255, .7);
   text-decoration: none;
   font-family: 'Open Sans', serif;
@@ -86,9 +89,23 @@ a.call {
   padding: .7em 2em;
   font-size: .9em;
   font-weight: bold;
-}
+} */
 
-.text {
+/* .text {
   width: 60%;
   padding: 2em 0;
+} */
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.product-img img {
+  margin: 6em 1em 6em 10em;
+  width: 550px;
+}
+
+.product-desc {
+  margin: 11em 3em 0 2em;
 }
