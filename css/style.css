@@ -99,7 +99,8 @@ h1 {
 
 .product-desc p,
 .kitchens-show h6,
-.kitchens-show p {
+.kitchens-show p,
+.offer-details p {
   font-size: 1em;
   line-height: 1.7;
   color: #aaa;
@@ -176,4 +177,29 @@ h1 {
 
 .offer-img img {
   width: 600px;
+}
+
+.offer-details {
+  display: flex;
+  flex-direction: column;
+  margin: 7em 0 0 5em;
+}
+
+.offer-details h2 {
+  margin: 0 0 1em 0;
+}
+
+.offer-details p {
+
+}
+
+.icon-section {
+  margin: 1em 0 0 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.icon-section div {
+  width: 50%;
 }
