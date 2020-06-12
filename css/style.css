@@ -236,11 +236,13 @@ h1 {
   height: 130px;
   width: 130px;
   text-align: center;
-  background-color: #484da3;
+  background-color: #f88d36;
   line-height: 130px;
   border-radius: 50%;
   position: relative;
-  top: -250px;
-  left: 463px;
+  top: -50px;
+  z-index: -1000;
   color: #fff;
+  font-size: 1em;
+  font-weight: 600;
 }
