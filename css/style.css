@@ -46,7 +46,9 @@ a.logo {
 
 a.call,
 .product-desc button,
-.details {
+.details,
+.offer-details button,
+.onsale-desc button {
   background: #f88d36;
   padding: .6em 1em;
   font-size: 1em;
@@ -68,7 +70,8 @@ a.call,
 .content,
 .recent-designs,
 .kitchens-show,
-.offer {
+.offer,
+.onsale {
   display: flex;
   flex-direction: row;
 }
@@ -100,13 +103,16 @@ h1 {
 .product-desc p,
 .kitchens-show h6,
 .kitchens-show p,
-.offer-details p {
+.offer-details p,
+.onsale-desc p {
   font-size: 1em;
   line-height: 1.7;
   color: #aaa;
 }
 
-.product-desc button {
+.product-desc button,
+.offer-details button,
+.onsale-desc button {
   border: none;
   margin: 2em 0 0 0;
   font-family: 'Vollkorn', serif;
@@ -169,7 +175,8 @@ h1 {
   left: 8.7em;
 }
 
-.offer {
+.offer,
+.onsale {
   width: 83%;
   margin: 5em auto;
   /* background-color: orange; */
@@ -187,10 +194,7 @@ h1 {
 
 .offer-details h2 {
   margin: 0 0 1em 0;
-}
-
-.offer-details p {
-
+  color: #222;
 }
 
 .icon-section {
@@ -202,4 +206,28 @@ h1 {
 
 .icon-section div {
   width: 50%;
+}
+
+.offer-details button {
+  width: 40%;
+  text-transform: capitalize;
+}
+
+.onsale {
+  padding-top: 7em;
+  /* background-color: yellow; */
+}
+
+.onsale-desc {
+  width: 50%;
+}
+
+.onsale-desc h1 {
+  margin: 4em 0 1em 0;
+}
+
+.onsale-img img {
+  margin: 0 0 0 5em;
+  height: 600px;
+  box-shadow: 5px 15px 30px rgba(0, 0, 0, .2);
 }
