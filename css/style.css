@@ -246,3 +246,23 @@ h1 {
   font-size: 1em;
   font-weight: 600;
 }
+
+.other-pdts {
+  /* background: yellow; */
+}
+
+.pdts-content {
+  display: flex;
+  flex-direction: row;
+  width: 83%;
+  margin: 0 auto 5em auto;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.pdts-content div {
+  width: 31.5%;
+  background: purple;
+  border-radius: 6px;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, .2);
+}
