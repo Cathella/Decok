@@ -262,7 +262,11 @@ h1 {
 
 .pdts-content div {
   width: 31.5%;
-  background: purple;
+  /* background: purple; */
   border-radius: 6px;
   box-shadow: 5px 10px 20px rgba(0, 0, 0, .2);
+}
+
+.pdt img {
+  width: 100%;
 }
