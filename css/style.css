@@ -30,7 +30,7 @@ nav ul {
 
 nav li {
   margin: 0 1.2em;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 nav a {
@@ -57,14 +57,17 @@ a.call,
   color: white;
 }
 
+.product-desc button,
+.offer-details button,
+.onsale-desc button {
+  font-size: 1.1em;
+}
+
 
 
 
 .introduction {
-  /* padding: 9em 0 9em 0; */
   background-color: #f8f8f8;
-  /* background-image: linear-gradient(orange, yellow); */
-  /* background-size: 400px; */
 }
 
 .content,
@@ -105,7 +108,7 @@ h1 {
 .kitchens-show p,
 .offer-details p,
 .onsale-desc p {
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.7;
   color: #aaa;
 }
@@ -116,6 +119,10 @@ h1 {
   border: none;
   margin: 2em 0 0 0;
   font-family: 'Vollkorn', serif;
+}
+
+.kitchens-show p {
+  font-size: 1em;
 }
 
 
@@ -267,6 +274,32 @@ h1 {
   box-shadow: 5px 10px 20px rgba(0, 0, 0, .2);
 }
 
-.pdt img {
+.pdt {
+  height: 280px;
+  position: relative;
+}
+
+.pdt p {
   width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 0;
+  padding: .7em 0;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+#pdt1 {
+  background: url(../img/stand-2.jpg);
+  background-size: cover;
+}
+
+#pdt2 {
+  background: url(../img/decok7.jpg);
+  background-size: cover;
+}
+
+#pdt3 {
+  background: url(../img/platform-bed.jpg);
+  background-size: cover;
 }
