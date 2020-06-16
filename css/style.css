@@ -303,3 +303,83 @@ h1 {
   background: url(../img/platform-bed.jpg);
   background-size: cover;
 }
+
+footer {
+  background: #eee;
+  margin: 8em 0 0 0;
+}
+
+.footer-content {
+  width: 83%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4em 0;
+}
+
+.footer-content p {
+  font-weight: 600;
+  margin: 1em 0 1em 0;
+  text-transform: capitalize;
+}
+
+.navigate ul,
+.address ul {
+  list-style: none;
+}
+
+.navigate li {
+  line-height: 2em;
+  text-transform: capitalize;
+}
+
+.navigate a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.address {
+  margin: 2.5em 0 0 0;
+}
+
+.address ul {
+  text-align: right;
+}
+
+.address li {
+  line-height: 2;
+  color: #aaa;
+}
+
+li.li-1 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #222;
+}
+
+.footer-copy {
+  border-top: 1px solid #ddd;
+}
+
+.copy-content {
+  width: 83%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+}
+
+.copy-content ul {
+  list-style: none;
+  display: flex;
+}
+
+.copy-content li {
+  margin: 0 1em;
+}
+
+.copy-content a {
+  text-decoration: none;
+  color: #aaa;
+}
