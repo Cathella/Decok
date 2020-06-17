@@ -1,0 +1,400 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Vollkorn', serif;
+}
+
+header {
+  /* border-bottom: 1px solid rgba(0, 0, 0, .15); */
+}
+
+nav,
+nav ul {
+  display: flex;
+}
+
+nav {
+  width: 95%;
+  justify-content: space-between;
+  margin: .5em auto;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin: 0 1.2em;
+  font-size: 1.1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+}
+
+a.logo {
+  font-size: 1.6em;
+  color: #48487f;
+  font-weight: bold;
+}
+
+a.call,
+.product-desc button,
+.details,
+.offer-details button,
+.onsale-desc button {
+  background: #f88d36;
+  padding: .6em 1em;
+  font-size: 1em;
+  border-radius: 3px;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, .2);
+  color: white;
+}
+
+.product-desc button,
+.offer-details button,
+.onsale-desc button {
+  font-size: 1.1em;
+}
+
+
+
+
+.introduction {
+  background-color: #f8f8f8;
+}
+
+.content,
+.recent-designs,
+.kitchens-show,
+.offer,
+.onsale {
+  display: flex;
+  flex-direction: row;
+}
+
+.product-img {
+  /* background-color: #48487f; */
+  background-color: #f88d36;
+  position: relative;
+  width: 40%;
+}
+
+.product-img img {
+  margin: 7.5em 1em 7.5em 8em;
+  width: 700px;
+  box-shadow: 5px 15px 30px rgba(0, 0, 0, .2);
+}
+
+.product-desc {
+  margin: 11em 8em 0 20em;
+}
+
+h1 {
+  font-size: 2.4em;
+  margin: 0 0 .7em 0;
+  color: #222;
+  font-weight: 600;
+}
+
+.product-desc p,
+.kitchens-show h6,
+.kitchens-show p,
+.offer-details p,
+.onsale-desc p {
+  font-size: 1.2em;
+  line-height: 1.7;
+  color: #aaa;
+}
+
+.product-desc button,
+.offer-details button,
+.onsale-desc button {
+  border: none;
+  margin: 2em 0 0 0;
+  font-family: 'Vollkorn', serif;
+}
+
+.kitchens-show p {
+  font-size: 1em;
+}
+
+
+
+.recent-designs {
+  padding: 6em 0;
+}
+
+.recent-heading {
+  width: 20%;
+  margin: 6em 1em 0 8em;
+}
+
+.kitchens-show {
+  box-shadow: 5px 0px 20px rgba(0, 0, 0, .1);
+}
+
+.kitchens-show div {
+  background: white;
+  border: 1px solid #eee;
+  border-right: none;
+  padding: 1em;
+  margin: 0 0 0 0px;
+}
+
+.image-section {
+  height: 200px;
+  background-color: #ddd;
+  margin: 0 0 .8em 0;
+  background-size: cover;
+}
+
+#image-1 {
+  background-image: url(../img/decok1.jpg);
+}
+
+#image-2 {
+  background-image: url(../img/decok2.jpg);
+}
+
+#image-3 {
+  background-image: url(../img/decok5.jpeg);
+}
+
+#image-4 {
+  background-image: url(../img/decok4.jpeg);
+}
+
+.kitchens-show h6 {
+  color: #222;
+}
+
+.details {
+  position: relative;
+  top: 30px;
+  text-decoration: none;
+  left: 8.7em;
+}
+
+.offer,
+.onsale {
+  width: 83%;
+  margin: 5em auto;
+  /* background-color: orange; */
+}
+
+.offer-img img {
+  width: 600px;
+  height: 450px;
+}
+
+.offer-details {
+  display: flex;
+  flex-direction: column;
+  margin: 7em 0 0 5em;
+}
+
+.offer-details h2 {
+  margin: 0 0 1em 0;
+  color: #222;
+}
+
+.icon-section {
+  margin: 1em 0 0 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.icon-section div {
+  width: 50%;
+}
+
+.offer-details button {
+  width: 40%;
+  text-transform: capitalize;
+}
+
+.onsale {
+  padding-top: 7em;
+  /* background-color: yellow; */
+}
+
+.onsale-desc {
+  width: 50%;
+}
+
+.onsale-desc h1 {
+  margin: 4em 0 1em 0;
+}
+
+.onsale-img {
+  position: relative;
+}
+
+.onsale-img img {
+  margin: 0 0 0 5em;
+  height: 600px;
+  box-shadow: 5px 15px 30px rgba(0, 0, 0, .2);
+}
+
+.badge {
+  text-align: center;
+  background-color: #f88d36;
+  border-radius: 50%;
+  z-index: -1000;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+  height: 170px;
+  width: 170px;
+  line-height: 135px;
+  position: absolute;
+  top: -92px;
+  right: -74px;
+}
+
+.other-pdts {
+  /* background: yellow; */
+}
+
+.pdts-content {
+  display: flex;
+  flex-direction: row;
+  width: 83%;
+  margin: 10em auto 15em auto;
+  text-align: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.pdts-content h1 {
+  text-align: left;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.pdts-content div {
+  width: 31.5%;
+  /* background: purple; */
+  border-radius: 6px;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, .2);
+}
+
+.pdt {
+  height: 280px;
+  position: relative;
+  top: 8em;
+}
+
+.pdt p {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 0;
+  padding: .7em 0;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+#pdt1 {
+  background: url(../img/stand-2.jpg);
+  background-size: cover;
+}
+
+#pdt2 {
+  background: url(../img/decok7.jpg);
+  background-size: cover;
+}
+
+#pdt3 {
+  background: url(../img/platform-bed.jpg);
+  background-size: cover;
+}
+
+footer {
+  background: #eee;
+  margin: 8em 0 0 0;
+}
+
+.footer-content {
+  width: 83%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4em 0;
+}
+
+.footer-content p {
+  font-weight: 600;
+  margin: 1em 0 1em 0;
+  text-transform: capitalize;
+}
+
+.navigate ul,
+.address ul {
+  list-style: none;
+}
+
+.navigate li {
+  line-height: 2em;
+  text-transform: capitalize;
+}
+
+.navigate a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.address {
+  margin: 2.5em 0 0 0;
+}
+
+.address ul {
+  text-align: right;
+}
+
+.address li {
+  line-height: 2;
+  color: #aaa;
+}
+
+li.li-1 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #222;
+}
+
+.footer-copy {
+  border-top: 1px solid #ddd;
+}
+
+.copy-content {
+  width: 83%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+}
+
+.copy-content ul {
+  list-style: none;
+  display: flex;
+}
+
+.copy-content li {
+  margin: 0 1em;
+}
+
+.copy-content a {
+  text-decoration: none;
+  color: #aaa;
+}
