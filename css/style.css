@@ -67,7 +67,6 @@ a.call,
 }
 
 .content,
-.recent-designs,
 .kitchens-show,
 .offer,
 .onsale {
@@ -103,11 +102,11 @@ a.call,
 .desc-content h1 {
   color: white;
   margin-bottom: .4em;
-  font-size: 3em;
+  font-size: 3.5em;
 }
 
 .desc-content p {
-  font-size: 1.1em;
+  font-size: 1.3em;
   line-height: 2;
 }
 
@@ -181,15 +180,22 @@ h1 {
 
 .recent-designs {
   padding: 6em 0;
+  position: relative;
 }
 
 .recent-heading {
-  width: 20%;
-  margin: 6em 1em 0 8em;
+  width: 80%;
+  margin: 0em auto 0 auto;
 }
 
 .kitchens-show {
-  box-shadow: 5px 0px 20px rgba(0, 0, 0, .1);
+  /* box-shadow: 5px 0px 20px rgba(0, 0, 0, .1); */
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .kitchens-show div {
@@ -197,11 +203,16 @@ h1 {
   border: 1px solid #eee;
   border-right: none;
   padding: 1em;
-  margin: 0 0 0 0px;
+  margin: 0 0 1.5em 0;
+  width: 30.4%;
+}
+
+div.border-right {
+  border-right: 1px solid #eee;
 }
 
 .image-section {
-  height: 200px;
+  height: 250px;
   background-color: #ddd;
   margin: 0 0 .8em 0;
   background-size: cover;
@@ -312,47 +323,40 @@ h1 {
   right: -74px;
 }
 
-.other-pdts {
-  /* background: yellow; */
+.other-pdts h1 {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .pdts-content {
   display: flex;
   flex-direction: row;
-  width: 83%;
-  margin: 10em auto 15em auto;
+  width: 80%;
+  margin: 2em auto 10em auto;
   text-align: center;
   justify-content: space-between;
   position: relative;
 }
 
-.pdts-content h1 {
-  text-align: left;
-  position: absolute;
-  top: 0;
-  width: 200px;
-}
-
 .pdts-content div {
-  width: 31.5%;
-  /* background: purple; */
-  border-radius: 6px;
-  box-shadow: 5px 10px 20px rgba(0, 0, 0, .2);
+  width: 33.3%;
+  /* border-radius: 6px; */
+  /* box-shadow: 5px 10px 20px rgba(0, 0, 0, .2); */
 }
 
 .pdt {
   height: 280px;
   position: relative;
-  top: 8em;
+  /* top: 8em; */
 }
 
 .pdt p {
   width: 100%;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.9);
   position: absolute;
   bottom: 0;
   padding: .7em 0;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 600;
 }
 
