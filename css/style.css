@@ -19,7 +19,7 @@ nav ul {
 nav {
   width: 95%;
   justify-content: space-between;
-  margin: .5em auto;
+  margin: 1em auto;
   align-items: center;
 }
 
@@ -62,9 +62,6 @@ a.call,
   font-size: 1.1em;
 }
 
-
-
-
 .introduction {
   background-color: #f8f8f8;
 }
@@ -79,20 +76,77 @@ a.call,
 }
 
 .product-img {
-  /* background-color: #48487f; */
-  background-color: #f88d36;
   position: relative;
-  width: 40%;
+  width: 100%;
+  background-image: url(../img/intro_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
 }
 
-.product-img img {
-  margin: 7.5em 1em 7.5em 8em;
-  width: 700px;
-  box-shadow: 5px 15px 30px rgba(0, 0, 0, .2);
+.product-img .content {
+  justify-content: space-between;
 }
 
 .product-desc {
-  margin: 11em 8em 0 20em;
+  width: 45%;
+  /* margin: 7em 0em 0 2em; */
+  color: white;
+  background: #f88d36;
+  height: 600px;
+}
+
+.desc-content {
+  margin: 10em 3em 0 10em;
+}
+
+.desc-content h1 {
+  color: white;
+  margin-bottom: .4em;
+  font-size: 3em;
+}
+
+.desc-content p {
+  font-size: 1.1em;
+  line-height: 2;
+}
+
+.form-consult {
+  width: 50%;
+}
+
+.form-consult form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 5em auto 0 auto;
+  background: white;
+  padding: 3em;
+  box-shadow: 5px 0px 20px rgba(0, 0, 0, .1);
+}
+
+.form-consult label {
+  font-size: 1.5em;
+  margin: 0 0em 1em 0;
+}
+
+.form-consult input {
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, .1);
+  padding: 0 0 0 .7em;
+  margin: 0 0 .9em 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.05em;
+}
+
+.form-consult button {
+  height: 50px;
+  color: white;
+  background: #48487f;
+  border: 1px solid #48487f;
+  font-size: 1.1em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.1em;
 }
 
 h1 {
@@ -102,7 +156,6 @@ h1 {
   font-family: 'Vollkorn', serif;
 }
 
-.product-desc p,
 .kitchens-show h6,
 .kitchens-show p,
 .offer-details p,
