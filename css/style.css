@@ -77,10 +77,10 @@ a.call,
 .product-img {
   position: relative;
   width: 100%;
-  background-image: url(../img/intro_bg.jpg);
+  background-image: url(../img/photo_24.jpg);
   background-position: center;
   background-size: cover;
-  height: 600px;
+  height: 437px;
 }
 
 .product-img .content {
@@ -88,11 +88,7 @@ a.call,
 }
 
 .product-desc {
-  width: 45%;
-  /* margin: 7em 0em 0 2em; */
-  color: white;
-  background: #f88d36;
-  height: 600px;
+  width: 50%;
 }
 
 .desc-content {
@@ -117,16 +113,17 @@ a.call,
 .form-consult form {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  margin: 5em auto 0 auto;
+  width: 40%;
+  margin: 1.5em auto 0 auto;
   background: white;
-  padding: 3em;
+  padding: 1.5em 2em;
   box-shadow: 5px 0px 20px rgba(0, 0, 0, .1);
 }
 
 .form-consult label {
   font-size: 1.5em;
-  margin: 0 0em 1em 0;
+  margin: 0 0 .4em 0;
+  text-align: center;
 }
 
 .form-consult input {
@@ -141,8 +138,8 @@ a.call,
 .form-consult button {
   height: 50px;
   color: white;
-  background: #48487f;
-  border: 1px solid #48487f;
+  background: #f88d36;
+  border: 1px solid #f88d36;
   font-size: 1.1em;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.1em;
@@ -179,7 +176,7 @@ h1 {
 
 
 .recent-designs {
-  padding: 6em 0;
+  padding: 0 0 6em 0;
   position: relative;
 }
 
@@ -328,7 +325,8 @@ div.border-right {
   margin: 0 auto;
 }
 
-.pdts-content {
+.pdts-content,
+.process {
   display: flex;
   flex-direction: row;
   width: 80%;
@@ -336,12 +334,53 @@ div.border-right {
   text-align: center;
   justify-content: space-between;
   position: relative;
+  flex-wrap: wrap;
 }
 
-.pdts-content div {
+.pdts-content div{
   width: 33.3%;
-  /* border-radius: 6px; */
-  /* box-shadow: 5px 10px 20px rgba(0, 0, 0, .2); */
+}
+
+.process div {
+  width: 23.5%;
+}
+
+.step {
+  background: #48487f;
+  position: relative;
+  margin: 1.5em 0 0 0;
+  height: 190px;
+}
+
+#step1 {
+  background: url(../img/decision.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.step h3 {
+  font-size: 4em;
+  color: rgba(255, 255, 255, .7);
+}
+
+.step p {
+  font-size: 1.1em;
+  margin: 0 0 3em 0;
+  color: rgba(255, 255, 255, .7);
+}
+
+.step a {
+  display: block;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  background: #f88d36;
+  text-decoration: none;
+  color: white;
+  height: ;
+  padding: .9em 0;
 }
 
 .pdt {
@@ -491,4 +530,41 @@ footer .form {
   display: flex;
   justify-content: space-between;
   font-size: 1.2em;
+}
+
+.design-content h1 {
+  width: 80%;
+  margin: 3em auto 1em auto;
+  text-align: center;
+}
+
+.design-content > p {
+  width: 60%;
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 1.7;
+  margin: 0 auto;
+}
+
+.dream {
+  background: #eee;
+  padding: 2.5em 0;
+}
+
+.dream-content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.dream-content h1 {
+  margin: 0 0 .3em 0;
+  color: #48487f;
+}
+
+.dream-content p {
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1.7;
+  font-size: 1.1em;
 }
