@@ -548,3 +548,29 @@ footer .form {
     padding: 0 2em;
   }
 }
+
+@media only screen and (max-width: 410px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  .dream-content p,
+  .design-content > p {
+    font-size: 1em;
+  }
+
+  .design-content h1,
+  .recent-designs h1 {
+    margin-top: 2em;
+  }
+
+  .recent-designs {
+    padding-bottom: 3em;
+  }
+
+  .col-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
