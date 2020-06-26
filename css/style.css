@@ -62,7 +62,6 @@ a.call,
   background-color: #f8f8f8;
 }
 
-.content,
 .offer,
 .onsale {
   display: flex;
@@ -76,10 +75,6 @@ a.call,
   background-position: center;
   background-size: cover;
   height: 437px;
-}
-
-.product-img .content {
-  justify-content: space-between;
 }
 
 .product-desc {
@@ -102,13 +97,13 @@ a.call,
 }
 
 .form-consult {
-  width: 50%;
+  /* width: 60%; */
 }
 
-.form-consult form {
+form.form-consult {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  /* width: 40%; */
   margin: 1.5em auto 0 auto;
   background: white;
   padding: 1.5em 2em;
