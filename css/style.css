@@ -21,6 +21,7 @@ nav {
 
 nav ul {
   list-style: none;
+  margin-bottom: 0;
 }
 
 nav li {
@@ -37,6 +38,10 @@ a.logo {
   font-size: 1.6em;
   color: #48487f;
   font-family: 'Vollkorn', serif;
+}
+
+.logo span {
+  display: none;
 }
 
 a.call,
@@ -512,4 +517,34 @@ footer .form {
 .div-k {
   margin: 0 0 2em 0;
   box-shadow: 5px 15px 30px rgba(0, 0, 0, .2);
+}
+
+@media only screen and (max-width: 830px) {
+  nav ul {
+    display: none;
+  }
+
+  .logo span {
+    display: inline-block;
+    margin: 0 .6em 0 0;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  form.form-consult {
+    display: none;
+  }
+
+  .product-img {
+    height: 300px;
+  }
+
+  .dream-content p,
+  .design-content > p {
+    width: 100%;
+  }
+
+  footer {
+    padding: 0 2em;
+  }
 }
