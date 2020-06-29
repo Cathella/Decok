@@ -7,6 +7,10 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+header {
+  border-bottom: 1px solid rgba(0, 0, 0, .03);
+}
+
 nav,
 nav ul {
   display: flex;
@@ -517,6 +521,10 @@ footer .form {
 .div-k {
   margin: 0 0 2em 0;
   box-shadow: 5px 15px 30px rgba(0, 0, 0, .2);
+}
+
+.process-det {
+  padding: 4em 0
 }
 
 @media only screen and (max-width: 830px) {
