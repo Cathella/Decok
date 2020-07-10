@@ -134,6 +134,15 @@ form.form-consult {
   font-size: 1.05em;
 }
 
+.form-consult textarea {
+  height: 90px;
+  border: 1px solid rgba(0, 0, 0, .1);
+  padding: .5em 0 0 .7em;
+  margin: 0 0 .9em 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.05em;
+}
+
 .form-consult button {
   height: 50px;
   color: white;
@@ -341,6 +350,10 @@ div.border-right {
   text-decoration: none;
 }
 
+.other-pdts {
+  margin: 0 0 8em 0;
+}
+
 .pdt {
   height: 280px;
   position: relative;
@@ -375,7 +388,7 @@ div.border-right {
 
 footer {
   background: rgba(0, 0, 0, .75);
-  margin: 8em 0 0 0;
+  margin: 0em 0 0 0;
 }
 
 .footer-content {
@@ -525,6 +538,15 @@ footer .form {
 
 .process-det {
   padding: 4em 0
+}
+
+.contact-sec p {
+  font-size: 1.2em;
+}
+
+.contact-map {
+  background: yellow;
+  padding: 5em 0 7em 0;
 }
 
 @media only screen and (max-width: 830px) {
