@@ -368,7 +368,7 @@ div.border-right {
 }
 
 #pdt2 {
-  background: url(../img/decok7.jpg);
+  background: url(../img/decok7.jpeg);
   background-size: cover;
 }
 
@@ -513,6 +513,10 @@ footer .form {
 .dream-content h1 {
   margin: 0 0 .3em 0;
   color: #48487f;
+}
+
+.why-us {
+  background: #48487f;
 }
 
 .text-purple {
