@@ -105,10 +105,6 @@ a.call,
   line-height: 2;
 }
 
-.form-consult {
-  /* width: 60%; */
-}
-
 form.form-consult {
   display: flex;
   flex-direction: column;
@@ -134,6 +130,15 @@ form.form-consult {
   font-size: 1.05em;
 }
 
+.form-consult textarea {
+  height: 90px;
+  border: 1px solid rgba(0, 0, 0, .1);
+  padding: .5em 0 0 .7em;
+  margin: 0 0 .9em 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.05em;
+}
+
 .form-consult button {
   height: 50px;
   color: white;
@@ -149,6 +154,11 @@ h1 {
   margin: 0 0 .7em 0;
   color: #222;
   font-family: 'Vollkorn', serif;
+}
+
+h3 {
+  font-family: 'Vollkorn', serif;
+  color: #f88d36;
 }
 
 .kitchens-show h6,
@@ -194,28 +204,18 @@ div.border-right {
   background-size: cover;
 }
 
-#image-1 {
-  background-image: url(../img/decok1.jpg);
-}
-
-#image-2 {
-  background-image: url(../img/decok2.jpg);
-}
-
-#image-3 {
-  background-image: url(../img/decok5.jpeg);
-}
-
-#image-4 {
-  background-image: url(../img/decok4.jpeg);
-}
-
 .kitchens-show h6 {
   color: #222;
   padding: .7em 1em;
   font-size: 1.05em;
   font-weight: bold;
-  background: #eee;
+  background: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.kitchens-show h6 a {
+  color: #48487f;
 }
 
 .details {
@@ -341,6 +341,10 @@ div.border-right {
   text-decoration: none;
 }
 
+.other-pdts {
+  margin: 0 0 8em 0;
+}
+
 .pdt {
   height: 280px;
   position: relative;
@@ -364,7 +368,7 @@ div.border-right {
 }
 
 #pdt2 {
-  background: url(../img/decok7.jpg);
+  background: url(../img/decok7.jpeg);
   background-size: cover;
 }
 
@@ -375,7 +379,7 @@ div.border-right {
 
 footer {
   background: rgba(0, 0, 0, .75);
-  margin: 8em 0 0 0;
+  margin: 0em 0 0 0;
 }
 
 .footer-content {
@@ -511,6 +515,14 @@ footer .form {
   color: #48487f;
 }
 
+.why-us {
+  background: #48487f;
+}
+
+.text-purple {
+  color: #48487f;
+}
+
 .dream-content p {
   width: 60%;
   margin: 0 auto;
@@ -520,11 +532,26 @@ footer .form {
 
 .div-k {
   margin: 0 0 2em 0;
-  box-shadow: 5px 15px 30px rgba(0, 0, 0, .2);
+  box-shadow: 5px 7px 15px rgba(0, 0, 0, .13);
 }
 
 .process-det {
   padding: 4em 0
+}
+
+.contact-sec p {
+  font-size: 1.2em;
+}
+
+.contact-map {
+  /* background: yellow; */
+  padding: 5em 0 7em 0;
+}
+
+.side-bg {
+  background-image: url(../img/side-bg.jpg);
+  height: 700px;
+  background-size: cover;
 }
 
 @media only screen and (max-width: 830px) {
