@@ -105,10 +105,6 @@ a.call,
   line-height: 2;
 }
 
-.form-consult {
-  /* width: 60%; */
-}
-
 form.form-consult {
   display: flex;
   flex-direction: column;
@@ -160,6 +156,11 @@ h1 {
   font-family: 'Vollkorn', serif;
 }
 
+h3 {
+  font-family: 'Vollkorn', serif;
+  color: #f88d36;
+}
+
 .kitchens-show h6,
 .kitchens-show p,
 .offer-details p,
@@ -203,28 +204,18 @@ div.border-right {
   background-size: cover;
 }
 
-#image-1 {
-  background-image: url(../img/decok1.jpg);
-}
-
-#image-2 {
-  background-image: url(../img/decok2.jpg);
-}
-
-#image-3 {
-  background-image: url(../img/decok5.jpeg);
-}
-
-#image-4 {
-  background-image: url(../img/decok4.jpeg);
-}
-
 .kitchens-show h6 {
   color: #222;
   padding: .7em 1em;
   font-size: 1.05em;
   font-weight: bold;
-  background: #eee;
+  background: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.kitchens-show h6 a {
+  color: #48487f;
 }
 
 .details {
@@ -524,6 +515,10 @@ footer .form {
   color: #48487f;
 }
 
+.text-purple {
+  color: #48487f;
+}
+
 .dream-content p {
   width: 60%;
   margin: 0 auto;
@@ -533,7 +528,7 @@ footer .form {
 
 .div-k {
   margin: 0 0 2em 0;
-  box-shadow: 5px 15px 30px rgba(0, 0, 0, .2);
+  box-shadow: 5px 7px 15px rgba(0, 0, 0, .13);
 }
 
 .process-det {
@@ -545,8 +540,14 @@ footer .form {
 }
 
 .contact-map {
-  background: yellow;
+  /* background: yellow; */
   padding: 5em 0 7em 0;
+}
+
+.side-bg {
+  background-image: url(../img/side-bg.jpg);
+  height: 700px;
+  background-size: cover;
 }
 
 @media only screen and (max-width: 830px) {
