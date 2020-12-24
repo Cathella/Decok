@@ -307,38 +307,44 @@ div.border-right {
 }
 
 .step {
-  position: relative;
-  margin: 1.5em 0 0 0;
-  height: 190px;
-  text-align: center;
+  /* position: relative; */
+  /* margin: 1.5em 0 0 0; */
+  /* height: 190px; */
+  /* text-align: center; */
 }
 
-#step1 {
+/* #step1 {
   background: url(../img/decision.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 .step h3 {
-  font-size: 4em;
-  color: #f88d36;
+  font-size: 2.4em;
+  /* color: #f88d36; */
 }
 
 .step p {
-  font-size: 1.1em;
-  margin: 0 0 1.5em 0;
+  /* font-size: 1.1em; */
+  /* margin: 0 0 1.5em 0; */
 }
 
 .step a {
-  text-align: center;
+  /* text-align: center;
   color: #f88d36;
-  padding: .6em 0;
-  border-bottom: 1px solid #f88d36;
+  /* padding: .6em 0; */
+  font-size: 1.1em;
+  text-decoration: underline;
+  /* border-bottom: 1px solid #f88d36;  */
+}
+
+.font-size-p {
+  font-size: 1.1em;
 }
 
 .step a:hover {
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .other-pdts {
@@ -490,15 +496,15 @@ footer .form {
 
 .design-content h1 {
   margin: 3em 0 1em 0;
-  text-align: center;
+  /* text-align: center; */
 }
 
-.design-content > p {
-  width: 60%;
-  text-align: center;
+.design-content  p {
+  /* width: 60%; */
+  /* text-align: center; */
   font-size: 1.1em;
   line-height: 1.7;
-  margin: 0 auto 3em auto;
+  /* margin: 0 auto 3em auto; */
 }
 
 .dream {
@@ -521,6 +527,22 @@ footer .form {
 
 .text-purple {
   color: #48487f;
+}
+
+.text-orange {
+  color: #f88d36;
+}
+
+.bg-purple {
+  background: #48487f;
+}
+
+.font-size-big {
+  font-size: 4em;
+}
+
+.border-orange {
+  border-color: #f88d36 !important;
 }
 
 .dream-content p {
