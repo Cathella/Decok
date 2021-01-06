@@ -491,6 +491,10 @@ footer .form {
   border-color: #f88d36 !important;
 }
 
+.bg-orange {
+  background-color: #f88d36 !important;
+}
+
 .dream-content p {
   width: 60%;
   margin: 0 auto;
@@ -592,16 +596,6 @@ input[name="r"] {
 }
 
 @media only screen and (max-width: 991px) {
-  /* #a1d .col-md-4 {
-    flex: 0 0 100%;
-    max-width: 100%;
-  } */
-
-  /* #a1d .col-md-8 {
-    flex: 0 0 100%;
-    max-width: 100%;
-  } */
-
   #a1d .statement {
     text-align: center;
     padding: 0 2em;
