@@ -73,6 +73,28 @@ a.call,
   height: 550px;
 }
 
+.process-bg {
+  background-image: url(../img/photo_24.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+}
+
+.ng-space-1 {
+  position: relative;
+  top: -20em;
+}
+
+.ng-space-2 {
+  position: relative;
+  top: -32em;
+}
+
+.ng-space-3 {
+  position: relative;
+  top: -5em;
+}
+
 .product-desc {
   width: 50%;
 }
