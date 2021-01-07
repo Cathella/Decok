@@ -54,10 +54,23 @@ a.call,
 .product-img {
   position: relative;
   width: 100%;
-  background-image: linear-gradient(to right, rgba(248, 141, 54, 0), rgba(248, 141, 54, 1)), url(../img/photo_25.jpg);
+  /* background-color: rgba(248, 141, 54, 1); */
+  /* background-image: linear-gradient(to right, rgba(248, 141, 54, 0), rgba(248, 141, 54, 1)), url(../img/photo_25.jpg); */
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* height: 437px; */
+}
+
+#dream {
+  position: relative;
+  top: -6em;
+}
+
+.left-img-bg {
+  background-image: url(../img/intro.jpg);
   background-position: center;
   background-size: cover;
-  height: 437px;
+  height: 550px;
 }
 
 .product-desc {
@@ -82,26 +95,27 @@ a.call,
 form.form-consult {
   display: flex;
   flex-direction: column;
-  /* width: 40%; */
-  margin: 1.5em auto 0 auto;
-  background: white;
-  padding: 1.5em 2em;
+  margin: 0em -0.9em 0 -0.9em;
+  padding: 1.5em 2em 2.4em;
   box-shadow: 5px 0px 20px rgba(0, 0, 0, .1);
 }
 
 .form-consult label {
   font-size: 1.5em;
-  margin: 0 0 .4em 0;
+  margin: 1em 0 1em 0;
   text-align: center;
 }
 
 .form-consult input {
   height: 45px;
-  border: 1px solid rgba(0, 0, 0, .1);
-  padding: 0 0 0 .7em;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+  color: white;
+  padding: 0 0 0 0em;
   margin: 0 0 .9em 0;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.05em;
+  background: transparent;
 }
 
 .form-consult textarea {
@@ -115,12 +129,12 @@ form.form-consult {
 
 .form-consult button {
   height: 50px;
-  color: white;
   background: #f88d36;
-  border: 1px solid #f88d36;
-  font-size: 1.1em;
+  background: white;
+  border: 1px solid white;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.1em;
+  margin-top: .8em;
 }
 
 h1 {
@@ -476,7 +490,11 @@ footer .form {
 }
 
 .bg-purple {
-  background: #48487f;
+  background: #48487f ;
+}
+
+.border-purple {
+  border-color: #48487f !important;
 }
 
 .font-size-big {
