@@ -45,10 +45,6 @@ a.call,
   font-size: 1.1em;
 }
 
-.introduction {
-  background-color: #f8f8f8;
-}
-
 .offer,
 .onsale {
   display: flex;
@@ -58,7 +54,7 @@ a.call,
 .product-img {
   position: relative;
   width: 100%;
-  background-image: url(../img/photo_25.jpg);
+  background-image: linear-gradient(to right, rgba(248, 141, 54, 0), rgba(248, 141, 54, 1)), url(../img/photo_25.jpg);
   background-position: center;
   background-size: cover;
   height: 437px;
