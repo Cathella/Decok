@@ -4,7 +4,8 @@
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -142,8 +143,9 @@ form.form-consult {
 
 .form-consult textarea {
   height: 90px;
-  border: 1px solid rgba(0, 0, 0, .1);
-  padding: .5em 0 0 .7em;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+  padding: 0em 0 0 0em;
   margin: 0 0 .9em 0;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.05em;
@@ -366,7 +368,8 @@ div.border-right {
 }
 
 footer {
-  background: rgba(0, 0, 0, .75);
+  /* background: rgba(0, 0, 0, .75); */
+  background: #f3f9fc;
   margin: 0em 0 0 0;
 }
 
@@ -375,25 +378,29 @@ footer {
 }
 
 .footer-content p {
-  font-weight: 600;
+  /* font-weight: 600; */
   margin: 1em 0 1em 0;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, .65);
+  font-family: 'Vollkorn', serif;
+  font-size: 1.2em;
+  /* color: rgba(255, 255, 255, .65); */
 }
 
 .navigate ul,
 .address ul {
-  list-style: none;
+  /* list-style: none; */
 }
 
 .navigate li {
-  line-height: 2em;
-  text-transform: capitalize;
+  /* line-height: 2em; */
+  /* text-transform: capitalize; */
 }
 
 .navigate a {
-  color: rgba(255, 255, 255, .65);
-  text-decoration: none;
+  color: rgba(0, 0, 0, .8);
+  line-height: 2.8em;
+  font-size: 0.9em;
+
+  /* text-decoration: none; */
 }
 
 .address {
@@ -406,23 +413,20 @@ footer {
 
 .address li {
   line-height: 2;
-  color: #aaa;
+  /* color: #aaa; */
 }
 
 li.li-1 {
   font-size: 1.5em;
   font-weight: 600;
-  color: #222;
-}
-
-.footer-copy {
-  border-top: 1px solid rgba(255, 255, 255, .2);
+  /* color: #222; */
 }
 
 .copy-content {
   padding: 1em 0;
-  color: rgba(255, 255, 255, .65);
+  /* color: rgba(255, 255, 255, .65); */
   text-align: center;
+  font-size: .9em;
 }
 
 .copy-content ul {
