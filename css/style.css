@@ -55,30 +55,20 @@ a.call,
 .product-img {
   position: relative;
   width: 100%;
-  /* background-color: rgba(248, 141, 54, 1); */
-  /* background-image: linear-gradient(to right, rgba(248, 141, 54, 0), rgba(248, 141, 54, 1)), url(../img/photo_25.jpg); */
-  /* background-position: center; */
-  /* background-size: cover; */
-  /* height: 437px; */
-}
-
-#dream {
-  position: relative;
-  top: -6em;
 }
 
 .left-img-bg {
   background-image: url(../img/intro.jpg);
   background-position: center;
   background-size: cover;
-  height: 550px;
+  height: 451px
 }
 
 .left-ward-bg {
   background-image: url(../img/wardrobe1.jpeg);
   background-position: center;
   background-size: cover;
-  height: 550px;
+  height: 515px;
 }
 
 .process-bg {
