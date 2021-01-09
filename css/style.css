@@ -74,6 +74,13 @@ a.call,
   height: 550px;
 }
 
+.left-ward-bg {
+  background-image: url(../img/wardrobe1.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+}
+
 .process-bg {
   background-image: url(../img/photo_24.jpg);
   background-position: center;
