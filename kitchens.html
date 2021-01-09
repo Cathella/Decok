@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Decok</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Vollkorn:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -26,11 +28,14 @@
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="process.html">Our process</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="kitchens.html">Kitchens</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="wardrobes.html">Wardrobes</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact Us</a>
@@ -221,46 +226,60 @@
       </div>
     </div>
 
-    <footer>
-      <div class="container footer-content">
+    <footer style="border-top: 1px solid #EEF2F4;">
+      <div class="footer-content container">
         <div class="row">
-          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
-            <h1 class="font-weight-bold text-white">Ready for a<br>New Kitchen?</h1>
-            <h2 class="font-weight-bold text-orange" style="text-decoration: underline;">Call - 039 3236050</h2>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+            <h1 class="font-weight-bold text-purple">Ready for a<br>New Kitchen?</h1>
+            <h2 class="font-weight-bold text-orange" style="text-decoration: underline; letter-spacing: -3px;">Call - 039 3236050</h2>
           </div>
           <div class="col-12 col-sm-6 col-md-6 col-lg-3">
             <div class="navigate">
-              <p>Get in Touch</p>
-              <ul>
-                <li><a href="#">Call 0393236050</a></li>
-                <li><a href="#">(9:00 AM – 5:00 PM) Mon - Fri</a></li>
-                <li><a href="#">(10:00 AM – 3:00 PM) Sat</a></li>
-                <li><a href="#">info@decok.design</a></li>
-              </ul>
+              <p class="text-muted">Get in Touch</p>
+              <div>
+                <a class="text-muted" href="#">Call 0393236050</a><br>
+                <a class="text-muted" href="#">(9:00 AM – 5:00 PM) Mon - Fri</a><br>
+                <a class="text-muted" href="#">(10:00 AM – 3:00 PM) Sat</a><br>
+                <a class="text-muted" href="#">info@decok.design</a>
+              </div>
               <div class="mt-4">
-                <a href="https://www.google.com/maps/dir//Decok/@0.3651594,32.6423936,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x177db9f42b497acf:0x2fcc5f9bd0a5abca!2m2!1d32.6374931!2d0.3651092!5m1!1e1" class="btn font-size-p px-5 py-2 rounded-0 btn-primary text-white shadow" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.google.com/maps/dir//Decok/@0.3651594,32.6423936,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x177db9f42b497acf:0x2fcc5f9bd0a5abca!2m2!1d32.6374931!2d0.3651092!5m1!1e1" class="btn px-5 py-2 rounded-0 btn-primary text-white shadow" target="_blank" rel="noopener noreferrer">
                   <i class="fas fa-lg fa-directions mr-3"></i>
                   Get Directions
                 </a>
               </div>
             </div>
           </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-2">
+            <div class="navigate">
+              <div>
+                <a class="text-muted" href="#">About Us</a><br>
+                <a class="text-muted" href="#">Reviews</a><br>
+                <a class="text-muted" href="#">Blog</a><br>
+                <a class="text-muted" href="#">Contact Us</a><br>
+                <a class="text-muted" href="#">FAQs</a><br>
+                <a class="text-muted" href="#">Carriers</a><br>
+                <a class="text-muted" href="#">Return</a><br>
+                <a class="text-muted" href="#">Shipping</a><br>
+              </div>
+            </div>
+          </div>
           <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-            <div class="newsletter">
-              <p>Newsletter</p>
-              <form class="form" action="index.html" method="post">
-                <input type="text" name="" value="" placeholder="Name">
-                <input type="text" name="" value="" placeholder="Email Address">
-                <button type="button" name="button">Subscribe</button>
-              </form>
+            <div class="text-right mt-5">
+              <h3 style="line-height: 1.5em">Free <span class="text-purple">consultation</span> for your furniture?</h3>
+              <a href="#" class="mt-4 btn bg-orange text-white shadow py-2 px-4 rounded-0">Learn more</a>
             </div>
           </div>
         </div>
 
       </div>
-      <div class="footer-copy">
-        <div class="container copy-content">
-          <p>Copyright 2020 Decok. All Rights Reserved.</p>
+      <div class="footer-copy mt-4 border-top pt-3">
+        <div class="container copy-content d-flex justify-content-between">
+          <p class="text-muted">Decok 2020 &copy; All Rights Reserved.</p>
+          <div>
+            <a href="#" class="mr-5 text-muted">Cookies policy</a>
+            <a href="#" class="text-muted">Privacy policy</a>
+          </div>
         </div>
       </div>
     </footer>
