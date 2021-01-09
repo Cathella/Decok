@@ -71,6 +71,13 @@ a.call,
   height: 515px;
 }
 
+.left-kit-bg {
+  background-image: url(../img/L1-shape.webp);
+  background-position: center;
+  background-size: cover;
+  height: 515px;
+}
+
 .process-bg {
   background-image: url(../img/photo_24.jpg);
   background-position: center;
