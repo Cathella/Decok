@@ -313,7 +313,6 @@ div.border-right {
 }
 
 .step a {
-  /* font-size: 1.1em; */
   text-decoration: underline;
 }
 
@@ -332,28 +331,33 @@ div.border-right {
 }
 
 .pdt p {
-  /* width: 100%; */
-  /* background: rgba(255, 255, 255, 0.9); */
   position: absolute;
   bottom: -40px;
-  /* padding: .7em 0; */
-  /* font-size: 1.1em; */
   font-weight: 600;
   margin-bottom: 0;
 }
 
 #pdt1 {
   background: url(../img/stand-2.jpg);
+  background-position-x: center;
   background-size: cover;
 }
 
 #pdt2 {
   background: url(../img/decok7.jpeg);
+  background-position-x: center;
   background-size: cover;
 }
 
 #pdt3 {
   background: url(../img/platform-bed.jpg);
+  background-position-x: center;
+  background-size: cover;
+}
+
+#pdt4 {
+  background: url(../img/intro.jpg);
+  background-position-x: center;
   background-size: cover;
 }
 
@@ -368,14 +372,13 @@ footer {
 
 .footer-content p {
   margin: 1em 0 1em 0;
-  /* font-family: 'Vollkorn', serif; */
+  font-family: 'Vollkorn', serif;
   font-size: 1.2em;
 }
 
 .navigate a {
   color: rgba(0, 0, 0, .8);
   line-height: 2.8em;
-  /* font-size: 0.9em; */
 }
 
 .copy-content {
