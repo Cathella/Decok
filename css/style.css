@@ -65,7 +65,21 @@ a.call,
 }
 
 .left-ward-bg {
-  background-image: url(../img/wardrobe1.jpeg);
+  background-image: url(../img/decok7.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 515px;
+}
+
+.left-bed-bg {
+  background-image: url(../img/platform-bed.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 515px;
+}
+
+.left-tv-bg {
+  background-image: url(../img/stand-2.jpg);
   background-position: center;
   background-size: cover;
   height: 515px;
