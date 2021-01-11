@@ -7,12 +7,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Vollkorn:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
     <link rel="stylesheet" href="css/style.css">
-    <script
-      src="https://kit.fontawesome.com/7290f27402.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
 
   <body>
@@ -72,52 +73,361 @@
         <div class="row">
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="bg-light">
-              <img src="img/photo_24.jpg" alt="" class="img-fluid rounded shadow">
+              <a href="#">
+                <img src="img/photo_24.jpg" alt="" class="img-fluid rounded shadow">
+              </a>
             </div>
-            <p class="font-weight-bold pt-3">U Shaped Kitchen</p>
-            <!-- <p class="text-muted">Size | 8'</p> -->
+            <div class="d-flex align-items-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">- U Shaped Kitchen</p>
+              <a href="#" class="text-orange" data-toggle="modal" data-target="#myModal">
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+            <div class="modal fade" id="myModal">
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content" style="position: relative;">
+                  <div class="modal-body p-0">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <img src="img/photo_24.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                          <button type="button" class="close mt-2 border rounded-circle bg-white" data-dismiss="modal" style="position: absolute; right: -2em; padding: .3em .5em; top: -2em">&times;</button>
+                          <div>
+                            <h1 style="font-size: 1.8em;" class="mr-4 mt-4 text-purple">
+                              U Shaped Kitchen
+                            </h1>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p>
+                                It elevates the kitchen functionality beyond the standard working
+                                Triangle. It identifies the 5 main kitchen activities into zones (consumable, non-consumable,
+                                cleaning, preparation, and cooking) and places them in relation with other zones. This
+                                optimizes workflow movement during the performance of tasks and increases storage space.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design? Book a free consultation and we will get in touch with you to take it forward.
+                              </p>
+                              <a href="#" class="mr-4 text-purple">Whatsapp</a>
+                              <a href="#" class="text-purple">Facebook</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="bg-light">
-              <img src="img/L2-shape.webp" alt="" class="img-fluid rounded shadow">
+              <a href="#">
+                <img src="img/L2-shape.webp" alt="" class="img-fluid rounded shadow">
+              </a>
             </div>
-            <p class="font-weight-bold pt-3">L Shaped Kitchen</p>
-            <!-- <p class="text-muted">Size | 8'</p> -->
+            <div class="d-flex align-items-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">- L Shaped Kitchen</p>
+              <a href="#" class="text-orange" data-toggle="modal" data-target="#myModal2">
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+            <div class="modal fade" id="myModal2">
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content" style="position: relative;">
+                  <div class="modal-body p-0">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <img src="img/L2-shape.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                          <button type="button" class="close mt-2 border rounded-circle bg-white" data-dismiss="modal" style="position: absolute; right: -2em; padding: .3em .5em; top: -2em">&times;</button>
+                          <div>
+                            <h1 style="font-size: 1.8em;" class="mr-4 mt-4 text-purple">
+                              L Shaped Kitchen
+                            </h1>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p>
+                                This is  ideal for accomplishing your daily tasks while also being an
+                                attractive set of design making your kitchen a delight to watch. We understand that it's not just beauty everyone looks out for but also sufficient
+                                storage space as well. With wee crafted cabinets and drawers, you will not
+                                be falling short of storage space.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design? Book a free consultation and we will get in touch with you to take it forward.
+                              </p>
+                              <a href="#" class="mr-4 text-purple">Whatsapp</a>
+                              <a href="#" class="text-purple">Facebook</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="bg-light">
-              <img src="img/P1-shape.webp" alt="" class="img-fluid rounded shadow">
+              <a href="">
+                <img src="img/P1-shape.webp" alt="" class="img-fluid rounded shadow">
+              </a>
             </div>
-            <p class="font-weight-bold pt-3">Parallel Shaped Kitchen</p>
-            <!-- <p class="text-muted">Size | 8'</p> -->
+            <div class="d-flex align-items-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">- Parallel Shaped Kitchen</p>
+              <a href="#" class="text-orange" data-toggle="modal" data-target="#myModal3">
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+            <div class="modal fade" id="myModal3">
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content" style="position: relative;">
+                  <div class="modal-body p-0">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <img src="img/P1-shape.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                          <button type="button" class="close mt-2 border rounded-circle bg-white" data-dismiss="modal" style="position: absolute; right: -2em; padding: .3em .5em; top: -2em">&times;</button>
+                          <div>
+                            <h1 style="font-size: 1.8em;" class="mr-4 mt-4 text-purple">
+                              Parallel Shaped Kitchen
+                            </h1>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p>
+                                The kitchen is the hub of any home; therefore, it is important that a kitchen is well planned,
+                                adequately organized and that it maximizes all the usable storage space to perform the
+                                kitchen tasks successfully. This design seeks shorten the distance travelled
+                                and movements in the kitchen during tasks.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design? Book a free consultation and we will get in touch with you to take it forward.
+                              </p>
+                              <a href="#" class="mr-4 text-purple">Whatsapp</a>
+                              <a href="#" class="text-purple">Facebook</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="bg-light">
-              <img src="img/U1-shape.webp" alt="" class="img-fluid rounded shadow">
+              <a href="#">
+                <img src="img/U1-shape.webp" alt="" class="img-fluid rounded shadow">
+              </a>
             </div>
-            <p class="font-weight-bold pt-3">U Shaped Kitchen</p>
-            <!-- <p class="text-muted">Size | 8'</p> -->
+            <div class="d-flex align-items-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">- U Shaped Kitchen</p>
+              <a href="#" class="text-orange" data-toggle="modal" data-target="#myModal4">
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+            <div class="modal fade" id="myModal4">
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content" style="position: relative;">
+                  <div class="modal-body p-0">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <img src="img/U1-shape.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                          <button type="button" class="close mt-2 border rounded-circle bg-white" data-dismiss="modal" style="position: absolute; right: -2em; padding: .3em .5em; top: -2em">&times;</button>
+                          <div>
+                            <h1 style="font-size: 1.8em;" class="mr-4 mt-4 text-purple">
+                              U Shaped Kitchen
+                            </h1>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p>
+                                It elevates the kitchen functionality beyond the standard working
+                                Triangle. It identifies the 5 main kitchen activities into zones (consumable, non-consumable,
+                                cleaning, preparation, and cooking) and places them in relation with other zones. This
+                                optimizes workflow movement during the performance of tasks and increases storage space.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design? Book a free consultation and we will get in touch with you to take it forward.
+                              </p>
+                              <a href="#" class="mr-4 text-purple">Whatsapp</a>
+                              <a href="#" class="text-purple">Facebook</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="bg-light">
-              <img src="img/S1-shape.webp" alt="" class="img-fluid rounded shadow">
+              <a href="#">
+                <img src="img/S1-shape.webp" alt="" class="img-fluid rounded shadow">
+              </a>
             </div>
-            <p class="font-weight-bold pt-3">Straight Shaped Kitchen</p>
-            <!-- <p class="text-muted">Size | 8'</p> -->
+            <div class="d-flex align-items-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">- Straight Shaped Kitchen</p>
+              <a href="#" class="text-orange" data-toggle="modal" data-target="#myModal5">
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+            <div class="modal fade" id="myModal5">
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content" style="position: relative;">
+                  <div class="modal-body p-0">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <img src="img/S1-shape.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                          <button type="button" class="close mt-2 border rounded-circle bg-white" data-dismiss="modal" style="position: absolute; right: -2em; padding: .3em .5em; top: -2em">&times;</button>
+                          <div>
+                            <h1 style="font-size: 1.8em;" class="mr-4 mt-4 text-purple">
+                              Straight Shaped Kitchen
+                            </h1>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p>
+                                This single wall design of a modular kitchen is the ideal for a home that is looking to save on
+                                space. Leaving no room for wastage, this design gives you the space for storage as well as
+                                your electrical kitchen gadgets. The closed shelves placed overhead and below make straight
+                                kitchen design a jam-free one and a joy to utilize.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design? Book a free consultation and we will get in touch with you to take it forward.
+                              </p>
+                              <a href="#" class="mr-4 text-purple">Whatsapp</a>
+                              <a href="#" class="text-purple">Facebook</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="bg-light">
-              <img src="img/U2-shape.webp" alt="" class="img-fluid rounded shadow">
+              <a href="#">
+                <img src="img/U2-shape.webp" alt="" class="img-fluid rounded shadow">
+              </a>
             </div>
-            <p class="font-weight-bold pt-3">U Shaped Kitchen</p>
-            <!-- <p class="text-muted">Size | 8'</p> -->
+            <div class="d-flex align-items-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">- U Shaped Kitchen</p>
+              <a href="#" class="text-orange" data-toggle="modal" data-target="#myModal6">
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+
+            <div class="modal fade" id="myModal6">
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content" style="position: relative;">
+                  <div class="modal-body p-0">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <img src="img/U2-shape.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                          <button type="button" class="close mt-2 border rounded-circle bg-white" data-dismiss="modal" style="position: absolute; right: -2em; padding: .3em .5em; top: -2em">&times;</button>
+                          <div>
+                            <h1 style="font-size: 1.8em;" class="mr-4 mt-4 text-purple">
+                              U Shaped Kitchen
+                            </h1>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p>
+                                It elevates the kitchen functionality beyond the standard working
+                                Triangle. It identifies the 5 main kitchen activities into zones (consumable, non-consumable,
+                                cleaning, preparation, and cooking) and places them in relation with other zones. This
+                                optimizes workflow movement during the performance of tasks and increases storage space.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design? Book a free consultation and we will get in touch with you to take it forward.
+                              </p>
+                              <a href="#" class="mr-4 text-purple">Whatsapp</a>
+                              <a href="#" class="text-purple">Facebook</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="bg-light">
-              <img src="img/photo_25.jpg" alt="" class="img-fluid rounded shadow">
+              <a href="#">
+                <img src="img/photo_25.jpg" alt="" class="img-fluid rounded shadow">
+              </a>
             </div>
-            <p class="font-weight-bold pt-3">U Shaped Kitchen</p>
-            <!-- <p class="text-muted">Size | 8'</p> -->
+            <div class="d-flex align-items-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">- U Shaped Kitchen</p>
+              <a href="#" class="text-orange" data-toggle="modal" data-target="#myModal7">
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+            <div class="modal fade" id="myModal7">
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content" style="position: relative;">
+                  <div class="modal-body p-0">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <img src="img/photo_25.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                          <button type="button" class="close mt-2 border rounded-circle bg-white" data-dismiss="modal" style="position: absolute; right: -2em; padding: .3em .5em; top: -2em">&times;</button>
+                          <div>
+                            <h1 style="font-size: 1.8em;" class="mr-4 mt-4 text-purple">
+                              U Shaped Kitchen
+                            </h1>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p>
+                                It elevates the kitchen functionality beyond the standard working
+                                Triangle. It identifies the 5 main kitchen activities into zones (consumable, non-consumable,
+                                cleaning, preparation, and cooking) and places them in relation with other zones. This
+                                optimizes workflow movement during the performance of tasks and increases storage space.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design? Book a free consultation and we will get in touch with you to take it forward.
+                              </p>
+                              <a href="#" class="mr-4 text-purple">Whatsapp</a>
+                              <a href="#" class="text-purple">Facebook</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="py-5 px-4 text-center rounded" style="background-color: #fff9ef">
@@ -128,10 +438,54 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="bg-light">
-              <img src="img/L1-shape.webp" alt="" class="img-fluid rounded shadow">
+              <a href="#">
+                <img src="img/L1-shape.webp" alt="" class="img-fluid rounded shadow">
+              </a>
             </div>
-            <p class="font-weight-bold pt-3">L Shaped Kitchen</p>
-            <!-- <p class="text-muted">Size | 8'</p> -->
+            <div class="d-flex align-items-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">- L Shaped Kitchen</p>
+              <a href="#" class="text-orange" data-toggle="modal" data-target="#myModal8">
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+            <div class="modal fade" id="myModal8">
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content" style="position: relative;">
+                  <div class="modal-body p-0">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <img src="img/L1-shape.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                          <button type="button" class="close mt-2 border rounded-circle bg-white" data-dismiss="modal" style="position: absolute; right: -2em; padding: .3em .5em; top: -2em">&times;</button>
+                          <div>
+                            <h1 style="font-size: 1.8em;" class="mr-4 mt-4 text-purple">
+                              L Shaped Kitchen
+                            </h1>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p>
+                                This is  ideal for accomplishing your daily tasks while also being an
+                                attractive set of design making your kitchen a delight to watch. We understand that it's not just beauty everyone looks out for but also sufficient
+                                storage space as well. With wee crafted cabinets and drawers, you will not
+                                be falling short of storage space.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design? Book a free consultation and we will get in touch with you to take it forward.
+                              </p>
+                              <a href="#" class="mr-4 text-purple">Whatsapp</a>
+                              <a href="#" class="text-purple">Facebook</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -195,10 +549,16 @@
       </div>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script> -->
     
+
+    <script
+      src="https://kit.fontawesome.com/7290f27402.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
       var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

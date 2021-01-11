@@ -65,7 +65,21 @@ a.call,
 }
 
 .left-ward-bg {
-  background-image: url(../img/wardrobe1.jpeg);
+  background-image: url(../img/decok7.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 515px;
+}
+
+.left-bed-bg {
+  background-image: url(../img/platform-bed.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 515px;
+}
+
+.left-tv-bg {
+  background-image: url(../img/stand-2.jpg);
   background-position: center;
   background-size: cover;
   height: 515px;
@@ -124,7 +138,7 @@ form.form-consult {
   flex-direction: column;
   margin: 0em -0.9em 0 -0.9em;
   padding: 1.5em 2em 2.4em;
-  box-shadow: 5px 0px 20px rgba(0, 0, 0, .1);
+  /* box-shadow: 5px 0px 20px rgba(0, 0, 0, .1); */
 }
 
 .form-consult label {
@@ -140,8 +154,6 @@ form.form-consult {
   color: white;
   padding: 0 0 0 0em;
   margin: 0 0 .9em 0;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.05em;
   background: transparent;
 }
 
@@ -151,17 +163,11 @@ form.form-consult {
   border-bottom: 1px solid rgba(255, 255, 255, .5);
   padding: 0em 0 0 0em;
   margin: 0 0 .9em 0;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.05em;
+  background: transparent;
 }
 
 .form-consult button {
   height: 50px;
-  background: #f88d36;
-  background: white;
-  border: 1px solid white;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.1em;
   margin-top: .8em;
 }
 
@@ -313,7 +319,6 @@ div.border-right {
 }
 
 .step a {
-  /* font-size: 1.1em; */
   text-decoration: underline;
 }
 
@@ -332,28 +337,33 @@ div.border-right {
 }
 
 .pdt p {
-  /* width: 100%; */
-  /* background: rgba(255, 255, 255, 0.9); */
   position: absolute;
   bottom: -40px;
-  /* padding: .7em 0; */
-  /* font-size: 1.1em; */
   font-weight: 600;
   margin-bottom: 0;
 }
 
 #pdt1 {
   background: url(../img/stand-2.jpg);
+  background-position-x: center;
   background-size: cover;
 }
 
 #pdt2 {
   background: url(../img/decok7.jpeg);
+  background-position-x: center;
   background-size: cover;
 }
 
 #pdt3 {
   background: url(../img/platform-bed.jpg);
+  background-position-x: center;
+  background-size: cover;
+}
+
+#pdt4 {
+  background: url(../img/intro.jpg);
+  background-position-x: center;
   background-size: cover;
 }
 
@@ -368,14 +378,13 @@ footer {
 
 .footer-content p {
   margin: 1em 0 1em 0;
-  /* font-family: 'Vollkorn', serif; */
+  font-family: 'Vollkorn', serif;
   font-size: 1.2em;
 }
 
 .navigate a {
   color: rgba(0, 0, 0, .8);
   line-height: 2.8em;
-  /* font-size: 0.9em; */
 }
 
 .copy-content {
