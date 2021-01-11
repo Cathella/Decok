@@ -7,7 +7,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Vollkorn:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="css/style.css">
     <script
       src="https://kit.fontawesome.com/7290f27402.js"
@@ -79,11 +85,47 @@
             </div>
             <div class="d-flex align-items-center">
               <p class="mt-3 text-muted border-right pr-2 mr-2">- Wardrobe name</p>
-              <a href="contact.html" class="text-orange">
-                <i class="fas fa-lg fa-heart mr-2"></i> Love this design?
+              <a href="contact.html" class="text-orange" data-toggle="modal" data-target="#myModal">
+                <i class="fas fa-heart mr-1"></i> Love
               </a>
             </div>
             <p class="text-muted">- Size | 8'</p>
+            <div class="modal fade" id="myModal">
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content" style="position: relative;">
+                  <div class="modal-body p-0">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <img src="img/wardrobe2.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                          <button type="button" class="close mt-2 border rounded-circle bg-white" data-dismiss="modal" style="position: absolute; right: -2em; padding: .3em .5em; top: -2em">&times;</button>
+                          <div>
+                            <h1 style="font-size: 1.8em;" class="mr-4 mt-5 text-purple">
+                              Lapis Straight Wardrobe Walnut Rigato & Bronze Walnut
+                            </h1>
+                            <p class="text-muted border-bottom mr-4 pb-3">
+                              Like this design? Book a free consultation and we will get in touch with you to take it forward.
+                            </p>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p>Specifications<br>
+                              Size | 8' X 10' X 8'<br>
+                              Shape | Straight</p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              Connect with us on<br><br>
+                              <a href="#" class="mr-4 text-purple">Whatsapp</a>
+                              <a href="#" class="text-purple">Facebook</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="bg-light">
@@ -93,11 +135,47 @@
             </div>
             <div class="d-flex align-items-center">
               <p class="mt-3 text-muted border-right pr-2 mr-2">- Wardrobe name</p>
-              <a href="contact.html" class="text-orange">
-                <i class="fas fa-lg fa-heart mr-2"></i> Love this design?
+              <a href="contact.html" class="text-orange" data-toggle="modal" data-target="#myModal2">
+                <i class="fas fa-heart mr-1"></i> Love
               </a>
             </div>
             <p class="text-muted">- Size | 8'</p>
+            <div class="modal fade" id="myModal2">
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content" style="position: relative;">
+                  <div class="modal-body p-0">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <img src="img/wardrobe3.jpeg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                          <button type="button" class="close mt-2 border rounded-circle bg-white" data-dismiss="modal" style="position: absolute; right: -2em; padding: .3em .5em; top: -2em">&times;</button>
+                          <div>
+                            <h1 style="font-size: 1.8em;" class="mr-4 mt-5 text-purple">
+                              Lapis Straight Wardrobe Walnut Rigato & Bronze Walnut
+                            </h1>
+                            <p class="text-muted border-bottom mr-4 pb-3">
+                              Like this design? Book a free consultation and we will get in touch with you to take it forward.
+                            </p>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p>Specifications<br>
+                              Size | 8' X 10' X 8'<br>
+                              Shape | Straight</p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              Connect with us on<br><br>
+                              <a href="#" class="mr-4 text-purple">Whatsapp</a>
+                              <a href="#" class="text-purple">Facebook</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="bg-light">
@@ -107,11 +185,47 @@
             </div>
             <div class="d-flex align-items-center">
               <p class="mt-3 text-muted border-right pr-2 mr-2">- Wardrobe name</p>
-              <a href="contact.html" class="text-orange">
-                <i class="fas fa-lg fa-heart mr-2"></i> Love this design?
+              <a href="contact.html" class="text-orange" data-toggle="modal" data-target="#myModal3">
+                <i class="fas fa-heart mr-1"></i> Love
               </a>
             </div>
             <p class="text-muted">- Size | 8'</p>
+            <div class="modal fade" id="myModal3">
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content" style="position: relative;">
+                  <div class="modal-body p-0">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <img src="img/wardrobe4.jpeg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                          <button type="button" class="close mt-2 border rounded-circle bg-white" data-dismiss="modal" style="position: absolute; right: -2em; padding: .3em .5em; top: -2em">&times;</button>
+                          <div>
+                            <h1 style="font-size: 1.8em;" class="mr-4 mt-5 text-purple">
+                              Lapis Straight Wardrobe Walnut Rigato & Bronze Walnut
+                            </h1>
+                            <p class="text-muted border-bottom mr-4 pb-3">
+                              Like this design? Book a free consultation and we will get in touch with you to take it forward.
+                            </p>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p>Specifications<br>
+                              Size | 8' X 10' X 8'<br>
+                              Shape | Straight</p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              Connect with us on<br><br>
+                              <a href="#" class="mr-4 text-purple">Whatsapp</a>
+                              <a href="#" class="text-purple">Facebook</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="bg-light">
@@ -121,11 +235,47 @@
             </div>
             <div class="d-flex align-items-center">
               <p class="mt-3 text-muted border-right pr-2 mr-2">- Wardrobe name</p>
-              <a href="contact.html" class="text-orange">
-                <i class="fas fa-lg fa-heart mr-2"></i> Love this design?
+              <a href="contact.html" class="text-orange" data-toggle="modal" data-target="#myModal4">
+                <i class="fas fa-heart mr-1"></i> Love
               </a>
             </div>
             <p class="text-muted">- Size | 8'</p>
+            <div class="modal fade" id="myModal4">
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content" style="position: relative;">
+                  <div class="modal-body p-0">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <img src="img/wardrobe1.jpeg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                          <button type="button" class="close mt-2 border rounded-circle bg-white" data-dismiss="modal" style="position: absolute; right: -2em; padding: .3em .5em; top: -2em">&times;</button>
+                          <div>
+                            <h1 style="font-size: 1.8em;" class="mr-4 mt-5 text-purple">
+                              Lapis Straight Wardrobe Walnut Rigato & Bronze Walnut
+                            </h1>
+                            <p class="text-muted border-bottom mr-4 pb-3">
+                              Like this design? Book a free consultation and we will get in touch with you to take it forward.
+                            </p>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p>Specifications<br>
+                              Size | 8' X 10' X 8'<br>
+                              Shape | Straight</p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              Connect with us on<br><br>
+                              <a href="#" class="mr-4 text-purple">Whatsapp</a>
+                              <a href="#" class="text-purple">Facebook</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="bg-light">
@@ -135,11 +285,47 @@
             </div>
             <div class="d-flex align-items-center">
               <p class="mt-3 text-muted border-right pr-2 mr-2">- Wardrobe name</p>
-              <a href="contact.html" class="text-orange">
-                <i class="fas fa-lg fa-heart mr-2"></i> Love this design?
+              <a href="contact.html" class="text-orange" data-toggle="modal" data-target="#myModal5">
+                <i class="fas fa-heart mr-1"></i> Love
               </a>
             </div>
             <p class="text-muted">- Size | 8'</p>
+            <div class="modal fade" id="myModal5">
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content" style="position: relative;">
+                  <div class="modal-body p-0">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <img src="img/wardrobe5.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                          <button type="button" class="close mt-2 border rounded-circle bg-white" data-dismiss="modal" style="position: absolute; right: -2em; padding: .3em .5em; top: -2em">&times;</button>
+                          <div>
+                            <h1 style="font-size: 1.8em;" class="mr-4 mt-5 text-purple">
+                              Lapis Straight Wardrobe Walnut Rigato & Bronze Walnut
+                            </h1>
+                            <p class="text-muted border-bottom mr-4 pb-3">
+                              Like this design? Book a free consultation and we will get in touch with you to take it forward.
+                            </p>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p>Specifications<br>
+                              Size | 8' X 10' X 8'<br>
+                              Shape | Straight</p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              Connect with us on<br><br>
+                              <a href="#" class="mr-4 text-purple">Whatsapp</a>
+                              <a href="#" class="text-purple">Facebook</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="bg-light">
@@ -149,11 +335,47 @@
             </div>
             <div class="d-flex align-items-center">
               <p class="mt-3 text-muted border-right pr-2 mr-2">- Wardrobe name</p>
-              <a href="contact.html" class="text-orange">
-                <i class="fas fa-lg fa-heart mr-2"></i> Love this design?
+              <a href="contact.html" class="text-orange" data-toggle="modal" data-target="#myModal6">
+                <i class="fas fa-heart mr-1"></i> Love
               </a>
             </div>
             <p class="text-muted">- Size | 8'</p>
+            <div class="modal fade" id="myModal6">
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content" style="position: relative;">
+                  <div class="modal-body p-0">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <img src="img/wardrobe7.jpeg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                          <button type="button" class="close mt-2 border rounded-circle bg-white" data-dismiss="modal" style="position: absolute; right: -2em; padding: .3em .5em; top: -2em">&times;</button>
+                          <div>
+                            <h1 style="font-size: 1.8em;" class="mr-4 mt-5 text-purple">
+                              Lapis Straight Wardrobe Walnut Rigato & Bronze Walnut
+                            </h1>
+                            <p class="text-muted border-bottom mr-4 pb-3">
+                              Like this design? Book a free consultation and we will get in touch with you to take it forward.
+                            </p>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p>Specifications<br>
+                              Size | 8' X 10' X 8'<br>
+                              Shape | Straight</p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              Connect with us on<br><br>
+                              <a href="#" class="mr-4 text-purple">Whatsapp</a>
+                              <a href="#" class="text-purple">Facebook</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="bg-light">
@@ -163,11 +385,47 @@
             </div>
             <div class="d-flex align-items-center">
               <p class="mt-3 text-muted border-right pr-2 mr-2">- Wardrobe name</p>
-              <a href="contact.html" class="text-orange">
-                <i class="fas fa-lg fa-heart mr-2"></i> Love this design?
+              <a href="contact.html" class="text-orange" data-toggle="modal" data-target="#myModal7">
+                <i class="fas fa-heart mr-1"></i> Love
               </a>
             </div>
             <p class="text-muted">- Size | 8'</p>
+            <div class="modal fade" id="myModal7">
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content" style="position: relative;">
+                  <div class="modal-body p-0">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <img src="img/wardrobe6.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                          <button type="button" class="close mt-2 border rounded-circle bg-white" data-dismiss="modal" style="position: absolute; right: -2em; padding: .3em .5em; top: -2em">&times;</button>
+                          <div>
+                            <h1 style="font-size: 1.8em;" class="mr-4 mt-5 text-purple">
+                              Lapis Straight Wardrobe Walnut Rigato & Bronze Walnut
+                            </h1>
+                            <p class="text-muted border-bottom mr-4 pb-3">
+                              Like this design? Book a free consultation and we will get in touch with you to take it forward.
+                            </p>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p>Specifications<br>
+                              Size | 8' X 10' X 8'<br>
+                              Shape | Straight</p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              Connect with us on<br><br>
+                              <a href="#" class="mr-4 text-purple">Whatsapp</a>
+                              <a href="#" class="text-purple">Facebook</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="bg-light">
@@ -177,11 +435,47 @@
             </div>
             <div class="d-flex align-items-center">
               <p class="mt-3 text-muted border-right pr-2 mr-2">- Wardrobe name</p>
-              <a href="contact.html" class="text-orange">
-                <i class="fas fa-lg fa-heart mr-2"></i> Love this design?
+              <a href="contact.html" class="text-orange" data-toggle="modal" data-target="#myModal8">
+                <i class="fas fa-heart mr-1"></i> Love
               </a>
             </div>
             <p class="text-muted">- Size | 8'</p>
+            <div class="modal fade" id="myModal8">
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content" style="position: relative;">
+                  <div class="modal-body p-0">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <img src="img/wardrobe8.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-4">
+                          <button type="button" class="close mt-2 border rounded-circle bg-white" data-dismiss="modal" style="position: absolute; right: -2em; padding: .3em .5em; top: -2em">&times;</button>
+                          <div>
+                            <h1 style="font-size: 1.8em;" class="mr-4 mt-5 text-purple">
+                              Lapis Straight Wardrobe Walnut Rigato & Bronze Walnut
+                            </h1>
+                            <p class="text-muted border-bottom mr-4 pb-3">
+                              Like this design? Book a free consultation and we will get in touch with you to take it forward.
+                            </p>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p>Specifications<br>
+                              Size | 8' X 10' X 8'<br>
+                              Shape | Straight</p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              Connect with us on<br><br>
+                              <a href="#" class="mr-4 text-purple">Whatsapp</a>
+                              <a href="#" class="text-purple">Facebook</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="py-5 px-4 text-center rounded" style="background-color: #fff9ef">
@@ -252,9 +546,15 @@
       </div>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script> -->
     
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
