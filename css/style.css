@@ -71,6 +71,49 @@ a.call,
   height: 515px;
 }
 
+.measure-bg {
+  background-image: url(../img/measure.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+
+.design-brief-bg {
+  background-image: url(../img/process.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+
+.deliver-bg {
+  background-image: url(../img/deliver.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+
+.inspect-bg {
+  background-image: url(../img/inspect.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.install-bg {
+  background-image: url(../img/install.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.decide-bg {
+  background-image: url(../img/decide.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+
+
 .left-bed-bg {
   background-image: url(../img/platform-bed.jpg);
   background-position: center;
