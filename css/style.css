@@ -13,14 +13,7 @@ header {
 }
 
 nav li {
-  margin: 0 1.2em;
-  font-size: 1.1em;
-}
-
-a.logo {
-  font-size: 1.6em;
-  color: #48487f;
-  font-family: 'Vollkorn', serif;
+  margin: 0 1em;
 }
 
 .logo span {
@@ -592,6 +585,10 @@ input[name="r"] {
   .section-labels {
     display: none;
   }
+
+  .ng-space-3 {
+    left: -12em;
+  }
 }
 
 @media only screen and (max-width: 830px) {
@@ -605,11 +602,24 @@ input[name="r"] {
   .middle {
     display: none;
   }
+
+  .ng-space-1 {
+    left: -4em;
+    top: -20em;
+  }
+
+  .ng-space-2 {
+    left: -19em;
+  }
+
+  .ng-space-3 {
+    left: -39em;
+  }
 }
 
 @media only screen and (max-width: 575px) {
   form.form-consult {
-    display: none;
+    /* display: none; */
   }
 
   .product-img {
