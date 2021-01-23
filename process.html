@@ -3,17 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Decok</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Vollkorn:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <script
-      src="https://kit.fontawesome.com/7290f27402.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
+
   <body>
     <header class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
@@ -26,13 +23,16 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="kitchen-designs.html">Kitchens</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="wardrobes.html">Wardrobes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="platform-bed.html">Beds</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="stands.html">TV stands</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact Us</a>
@@ -59,9 +59,10 @@
           </div>
           <div class="col-md-8">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <h1 class="">01.</h1>
                 <h3 class="font-weight-bold">Deciding what you want</h3>
+                <div class="decide-bg mt-3"></div>
                 <p class="text-muted mt-3 mb-5">
                   The first step to a successful kitchen design is to think about what you want in your dream
                   kitchen. To help you understand some of the key decisions you will need to make, we have
@@ -74,6 +75,7 @@
               <div class="col-md-6">
                 <h1 class="">02.</h1>
                 <h3 class="font-weight-bold">Design briefing</h3>
+                <div class="design-brief-bg mt-3"></div>
                 <p class="text-muted mt-3 mb-5">
                   Once you have talked to our design experts and worked out what you want, the next step is to
                   meet our designer and organising an estimate quote. At this initial meeting, the designer
@@ -84,6 +86,7 @@
               <div class="col-md-6">
                 <h1 class="">03.</h1>
                 <h3 class="font-weight-bold">Check measurements</h3>
+                <div class="measure-bg mt-3"></div>
                 <p class="text-muted mt-3 mb-5">
                   You will be contacted by our customer support team to make an appointment at your home so
                   we can take the final measurements and selections confirmed. We will keep you advised of
@@ -94,6 +97,7 @@
               <div class="col-md-12">
                 <h1 class="">04.</h1>
                 <h3 class="font-weight-bold">Design stage and quote</h3>
+                <div class="deliver-bg mt-3"></div>
                 <div class="row">
                   <div class="col-md-6">
                     <p class="text-muted mt-3 mb-5">
@@ -119,7 +123,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <h1 class="">05.</h1>
                 <h3 class="font-weight-bold">Site preparation</h3>
                 <p class="text-muted mt-3 mb-5">
@@ -133,6 +137,7 @@
               <div class="col-md-6">
                 <h1 class="">06.</h1>
                 <h3 class="font-weight-bold">Delivery and Installation</h3>
+                <div class="install-bg mt-3"></div>
                 <p class="text-muted mt-3 mb-5">
                   Your next progress payment of 25% is due on delivery of the joinery. Installation of your
                   cabinetry is started and any other subtrade work that needs to be completed. The granite
@@ -142,6 +147,7 @@
               <div class="col-md-6">
                 <h1 class="">07.</h1>
                 <h3 class="font-weight-bold">Inspection and handover</h3>
+                <div class="inspect-bg mt-3"></div>
                 <p class="text-muted mt-3 mb-5">
                   Your finished new kitchen is now quality inspected and ready for handover. The completion
                   15% payment is due at handover. <br><br>
@@ -336,13 +342,19 @@
       </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-    <!--Start of Tawk.to Script-->
+    <script
+      src="https://kit.fontawesome.com/7290f27402.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      document.addEventListener('contextmenu', event => event.preventDefault());
+    </script>
+
     <script type="text/javascript">
       var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
       (function(){
@@ -354,8 +366,5 @@
       s0.parentNode.insertBefore(s1,s0);
       })();
     </script>
-    <!--End of Tawk.to Script-->
-
-
   </body>
 </html>

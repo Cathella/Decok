@@ -3,17 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Decok</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Vollkorn:wght@600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -28,14 +23,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="kitchen-designs.html">Kitchens</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="wardrobes.html">Wardrobes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="platform-bed.html">Beds</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="stands.html">TV stands</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact Us</a>
@@ -488,7 +486,7 @@
       <div class="footer-content container">
         <div class="row">
           <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-            <h1 class="font-weight-bold text-purple">Ready for a<br>New Kitchen?</h1>
+            <h1 class="font-weight-bold text-purple">Ready for a<br>New Wardrobe?</h1>
             <h2 class="font-weight-bold text-orange" style="text-decoration: underline; letter-spacing: -3px;">Call - 039 3236050</h2>
           </div>
           <div class="col-12 col-sm-6 col-md-6 col-lg-3">
@@ -532,32 +530,25 @@
 
       </div>
       <div class="footer-copy mt-4 border-top pt-3">
-        <div class="container copy-content d-flex justify-content-between">
+        <div class="container copy-content d-flex justify-content-center">
           <p class="text-muted">Decok 2020 &copy; All Rights Reserved.</p>
-          <div>
-            <a href="#" class="mr-5 text-muted">Cookies policy</a>
-            <a href="#" class="text-muted">Privacy policy</a>
-          </div>
         </div>
       </div>
     </footer>
 
-
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
-
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script> -->
-    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
     <script
       src="https://kit.fontawesome.com/7290f27402.js"
       crossorigin="anonymous"
     ></script>
-    
+
+    <script>
+      document.addEventListener('contextmenu', event => event.preventDefault());
+    </script>
+
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
       var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -570,6 +561,5 @@
       s0.parentNode.insertBefore(s1,s0);
       })();
     </script>
-    <!--End of Tawk.to Script-->
   </body>
 </html>
