@@ -1,15 +1,15 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 header {
-  border-bottom: 1px solid rgba(0, 0, 0, .03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
 }
 
 nav li {
@@ -26,10 +26,10 @@ a.call,
 .offer-details button,
 .onsale-desc button {
   background: #f88d36;
-  padding: .6em 1em;
+  padding: 0.6em 1em;
   font-size: 1em;
   border-radius: 3px;
-  box-shadow: 5px 10px 20px rgba(0, 0, 0, .2);
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
   color: white;
 }
 
@@ -51,10 +51,10 @@ a.call,
 }
 
 .left-img-bg {
-  background-image: url(../img/intro.jpg);
-  background-position: center;
+  background-image: url(../img/photo_24.jpg);
+  background-position: top;
   background-size: cover;
-  height: 451px
+  height: 451px;
 }
 
 .left-ward-bg {
@@ -105,7 +105,6 @@ a.call,
   background-size: cover;
   height: 200px;
 }
-
 
 .left-bed-bg {
   background-image: url(../img/platform-bed.jpg);
@@ -160,8 +159,31 @@ a.call,
 
 .desc-content h1 {
   color: white;
-  margin-bottom: .4em;
+  margin-bottom: 0.4em;
   font-size: 3.5em;
+}
+
+.item {
+  position: relative;
+}
+
+.item-kitchen {
+  height: 350px;
+  background: url(../img/S1-shape.webp);
+  background-size: cover;
+}
+
+.item-wadrobe {
+  height: 350px;
+  background: url(../img/decok7.jpeg);
+  background-size: cover;
+}
+
+.item a {
+  position: absolute;
+  right: 70px;
+  bottom: 100px;
+  border-radius: 3em;
 }
 
 .desc-content p {
@@ -186,36 +208,36 @@ form.form-consult {
 .form-consult input {
   height: 45px;
   border: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, .5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   color: white;
   padding: 0 0 0 0em;
-  margin: 0 0 .9em 0;
+  margin: 0 0 0.9em 0;
   background: transparent;
 }
 
 .form-consult textarea {
   height: 90px;
   border: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, .5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   padding: 0em 0 0 0em;
-  margin: 0 0 .9em 0;
+  margin: 0 0 0.9em 0;
   background: transparent;
 }
 
 .form-consult button {
   height: 50px;
-  margin-top: .8em;
+  margin-top: 0.8em;
 }
 
 h1 {
   font-size: 2.4em;
-  margin: 0 0 .7em 0;
+  margin: 0 0 0.7em 0;
   color: #222;
-  font-family: 'Vollkorn', serif;
+  font-family: "Vollkorn", serif;
 }
 
 h3 {
-  font-family: 'Vollkorn', serif;
+  font-family: "Vollkorn", serif;
   color: #f88d36;
 }
 
@@ -233,7 +255,7 @@ h3 {
 .onsale-desc button {
   border: none;
   margin: 2em 0 0 0;
-  font-family: 'Vollkorn', serif;
+  font-family: "Vollkorn", serif;
 }
 
 .kitchens-show p {
@@ -326,7 +348,7 @@ div.border-right {
 .onsale-img img {
   margin: 0 0 0 5em;
   height: 600px;
-  box-shadow: 5px 15px 30px rgba(0, 0, 0, .2);
+  box-shadow: 5px 15px 30px rgba(0, 0, 0, 0.2);
 }
 
 .badge {
@@ -414,12 +436,12 @@ footer {
 
 .footer-content p {
   margin: 1em 0 1em 0;
-  font-family: 'Vollkorn', serif;
+  font-family: "Vollkorn", serif;
   font-size: 1.2em;
 }
 
 .navigate a {
-  color: rgba(0, 0, 0, .8);
+  color: rgba(0, 0, 0, 0.8);
   line-height: 2.8em;
 }
 
@@ -429,11 +451,11 @@ footer {
 
 .form input {
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, .65);
+  border: 1px solid rgba(255, 255, 255, 0.65);
   height: 40px;
-  padding: 0 0 0 .7em;
+  padding: 0 0 0 0.7em;
   color: white;
-  margin: 0 0 .7em 0;
+  margin: 0 0 0.7em 0;
 }
 
 .form button {
@@ -459,10 +481,10 @@ footer {
   margin: 3em 0 1em 0;
 }
 
-.design-content  p {
+.design-content p {
   /* font-size: 1.1em; */
   /* line-height: 1.7; */
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .dream {
@@ -475,7 +497,7 @@ footer {
 }
 
 .dream-content h1 {
-  margin: 0 0 .3em 0;
+  margin: 0 0 0.3em 0;
   color: #48487f;
 }
 
@@ -492,7 +514,7 @@ footer {
 }
 
 .bg-purple {
-  background: #48487f ;
+  background: #48487f;
 }
 
 .border-purple {
@@ -519,7 +541,7 @@ footer {
 }
 
 .process-det {
-  padding: 4em 0
+  padding: 4em 0;
 }
 
 .contact-map {
@@ -542,7 +564,7 @@ footer {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .navigation {
@@ -594,7 +616,7 @@ input[name="r"] {
 @media only screen and (max-width: 830px) {
   .logo span {
     display: inline-block;
-    margin: 0 .6em 0 0;
+    margin: 0 0.6em 0 0;
   }
 }
 
@@ -618,10 +640,6 @@ input[name="r"] {
 }
 
 @media only screen and (max-width: 575px) {
-  form.form-consult {
-    /* display: none; */
-  }
-
   .product-img {
     height: 300px;
   }
