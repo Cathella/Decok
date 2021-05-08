@@ -179,11 +179,22 @@ a.call,
   background-size: cover;
 }
 
+.item-paint {
+  height: 350px;
+  background: url(https://homepimp.files.wordpress.com/2019/03/textured-paint-texture-wall-ideas-bedroom-texture-paint-designs-textures-interior-walls-bedroom.jpg?w=840);
+  background-size: cover;
+}
+
+.item-shelves {
+  height: 350px;
+  background: url(https://images.unsplash.com/photo-1462849251721-16fc0fa4609c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+  background-size: cover;
+}
+
 .item a {
   position: absolute;
   right: 70px;
   bottom: 100px;
-  border-radius: 3em;
 }
 
 .desc-content p {
