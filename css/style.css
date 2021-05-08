@@ -193,8 +193,12 @@ a.call,
 
 .item a {
   position: absolute;
-  right: 70px;
-  bottom: 100px;
+  right: 60px;
+  bottom: 80px;
+}
+
+.bg-red {
+  background: #e74c3c;
 }
 
 .desc-content p {
@@ -218,11 +222,6 @@ form.form-consult {
 
 .form-consult input {
   height: 45px;
-  border: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  color: white;
-  padding: 0 0 0 0em;
-  margin: 0 0 0.9em 0;
   background: transparent;
 }
 
