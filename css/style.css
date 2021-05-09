@@ -54,14 +54,14 @@ a.call,
   background-image: url(../img/photo_24.jpg);
   background-position: top;
   background-size: cover;
-  height: 451px;
+  height: 464px;
 }
 
 .left-ward-bg {
   background-image: url(../img/decok7.jpeg);
-  background-position: center;
+  background-position: top center;
   background-size: cover;
-  height: 515px;
+  height: 450px;
 }
 
 .measure-bg {
@@ -243,6 +243,10 @@ h1 {
   font-size: 2.4em;
   margin: 0 0 0.7em 0;
   color: #222;
+  font-family: "Vollkorn", serif;
+}
+
+h1 span {
   font-family: "Vollkorn", serif;
 }
 
