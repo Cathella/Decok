@@ -227,9 +227,6 @@ form.form-consult {
 
 .form-consult textarea {
   height: 90px;
-  border: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  padding: 0em 0 0 0em;
   margin: 0 0 0.9em 0;
   background: transparent;
 }
