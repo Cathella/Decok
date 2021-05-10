@@ -16,12 +16,13 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Vollkorn:wght@600&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
-    <header class="container">
+    <header class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand logo text-purple" href="index.html">
           <img src="img/logo.jpg" alt="Decok" width="100" />
@@ -40,7 +41,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="kitchen-designs.html">Kitchens</a>
@@ -49,112 +50,973 @@
               <a class="nav-link" href="wardrobes.html">Wardrobes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="paint.html">Texture Paint</a>
+              <a class="nav-link active" href="paint.html">Texture Paint</a>
             </li>
           </ul>
           <a href="#" class="call font-weight-bold my-2 my-lg-0"
-            >Call: 039 3236050</a
+            >Call: 0779 403771</a
           >
         </div>
       </nav>
     </header>
 
-    <div class="contact-map">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-lg-6">
-            <div class="ml-5 pt-5 pl-5 contact-sec">
-              <h1 class="text-purple" style="letter-spacing: -1px">
-                Contact Us
+    <div class="introduction">
+      <div class="">
+        <div class="container-fluid content" style="background: #fff9ef">
+          <div class="row">
+            <div class="col-md-7 left-paint-bg"></div>
+            <div class="col-md-12 col-md-6 col-lg-5 pt-4 pt-lg-5">
+              <h1 class="px-5 pt-lg-5 text-purple" style="letter-spacing: -1px">
+                Interested in creating a one of a kind look in your home?
               </h1>
-              <p class="mr-5 border-bottom pb-5 text-muted">
-                If you are not happy, we are not happy. We work tirelessly to
-                make sure your experience is delightful.
+              <p class="px-5 text-muted mb-4" style="font-size: 1.15em">
+                This type of paint adds depth and dimension to the otherwise
+                flat surface of a drywall.
               </p>
-              <div class="text-muted">
-                <p class="mt-5">
-                  <small class="text-uppercase text-orange">Phone:</small
-                  ><br /><span class="">0393236050</span>
-                </p>
-                <p>
-                  <small class="text-uppercase text-orange">Email:</small
-                  ><br /><span class="">info@decok.design</span>
-                </p>
-                <p>
-                  <small class="text-uppercase text-orange">Located:</small
-                  ><br />
-                  <span class="">
-                    Variety Arcade, <br />
-                    Plot 1163, Naalya – Namugongo Road
-                  </span>
-                </p>
-                <div class="mt-5">
-                  <a
-                    href="https://www.google.com/maps/dir//Decok/@0.3651594,32.6423936,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x177db9f42b497acf:0x2fcc5f9bd0a5abca!2m2!1d32.6374931!2d0.3651092!5m1!1e1"
-                    class="btn font-size-p px-5 py-2 rounded-0 btn-primary text-white shadow mb-5"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i class="fas fa-lg fa-directions mr-3"></i>
-                    Get Directions
-                  </a>
+              <a
+                href="contact.html"
+                class="btn bg-red ml-5 mb-4 text-white py-3 px-5 rounded-0"
+                >Contact us<i class="fas fa-arrow-right ml-3"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="py-5">
+      <div class="container">
+        <div class="d-flex align-items-center mt-4 mb-5">
+          <div
+            style="width: 100px; border-top: 2px solid"
+            class="border-orange"
+          ></div>
+          <h1 class="text-purple ml-3 mt-4" style="letter-spacing: -1px">
+            Texture Patterns
+          </h1>
+        </div>
+        <div class="row">
+          <div class="text-center col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <div class="">
+              <a href="#" data-toggle="modal" data-target="#myModal">
+                <img
+                  src="img/paints/p-1.webp"
+                  alt=""
+                  class="img-fluid rounded shadow"
+                />
+              </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">Lepton Ivory</p>
+              <a
+                href="#"
+                class="text-orange"
+                data-toggle="modal"
+                data-target="#myModal"
+              >
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+            <div class="modal fade" id="myModal">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="position: relative">
+                  <div class="modal-body py-5 pl-5 pr-md-5">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-md-12 text-center col-lg-12 col-xl-12">
+                          <img
+                            src="img/paints/p-1.webp"
+                            alt=""
+                            class="img-fluid mb-4"
+                          />
+                        </div>
+                        <div class="col-md-12 col-lg-12 col-xl-12 mx-auto">
+                          <button
+                            type="button"
+                            class="close mt-2 rounded-circle"
+                            data-dismiss="modal"
+                            style="
+                              position: absolute;
+                              right: -1.1em;
+                              padding: 0.3em 0.5em;
+                              top: -13.5em;
+                              color: white;
+                              background: red !important;
+                            "
+                          >
+                            &times;
+                          </button>
+                          <div>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p style="font-size: 1.15em">
+                                This design elevates the kitchen functionality
+                                beyond the standard working Triangle.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design?
+                                <a href="contact.html" class="text-orange"
+                                  >Contact Us</a
+                                >
+                              </p>
+                              <p>
+                                <a href="#" style="color: #128c7e">
+                                  Leave us a message on
+
+                                  <i class="fab fa-2x fa-whatsapp ml-2"></i
+                                ></a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-8 mx-auto col-lg-5 mx-auto">
-            <form
-              class="form-consult p-5"
-              action="https://formspree.io/xpzyygen"
-              method="post"
-              style="background-color: #f3f9fc"
-            >
-              <h3
-                class="mb-5 text-center text-purple"
-                style="letter-spacing: -1px"
+          <div class="text-center col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <div class="">
+              <a href="#" data-toggle="modal" data-target="#myModal2">
+                <img
+                  src="img/paints/p2.jpg"
+                  alt=""
+                  class="img-fluid rounded shadow"
+                />
+              </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">
+                Dubond Rustic
+              </p>
+              <a
+                href="#"
+                class="text-orange"
+                data-toggle="modal"
+                data-target="#myModal2"
               >
-                Fill in your details
-              </h3>
-              <input
-                type="text"
-                name="name"
-                placeholder="Name"
-                class="text-purple form-control mb-3"
-              />
-              <input
-                type="email"
-                name="email"
-                placeholder="Email Address"
-                class="form-control mb-3 text-purple"
-              />
-              <input
-                type="text"
-                name="phone"
-                placeholder="Phone"
-                class="text-purple mb-3 form-control"
-              />
-              <input
-                type="text"
-                name="district"
-                placeholder="District"
-                class="text-purple mb-3 form-control"
-              />
-              <textarea
-                name="message"
-                placeholder="Describe your requirements here..."
-                class="text-purple form-control"
-              ></textarea>
-              <div class="d-flex align-items-center justify-content-center">
-                <input type="checkbox" class="d-inline-block" />
-                <span class="d-inline-block ml-3 text-muted">Call me Back</span>
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+            <div class="modal fade" id="myModal2">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="position: relative">
+                  <div class="modal-body py-5 pl-5 pr-md-5">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-lg-12 text-center col-md-12 col-xl-12">
+                          <img
+                            src="img/paints/p2.jpg"
+                            alt=""
+                            class="img-fluid mb-4"
+                          />
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-xl-12 mx-auto">
+                          <button
+                            type="button"
+                            class="close mt-2 rounded-circle"
+                            data-dismiss="modal"
+                            style="
+                              position: absolute;
+                              right: -1.1em;
+                              padding: 0.3em 0.5em;
+                              top: -13.5em;
+                              color: white;
+                              background: red !important;
+                            "
+                          >
+                            &times;
+                          </button>
+                          <div>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p style="font-size: 1.15em">
+                                This design is ideal for accomplishing your
+                                daily tasks while also being an attractive set
+                                of design making your kitchen a delight to
+                                watch.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design?
+                                <a href="contact.html" class="text-orange"
+                                  >Contact Us</a
+                                >
+                              </p>
+                              <p>
+                                <a href="#" style="color: #128c7e">
+                                  Leave us a message on
+
+                                  <i class="fab fa-2x fa-whatsapp ml-2"></i
+                                ></a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <button
-                type="submit"
-                class="bg-red text-white shadow btn rounded-0"
+            </div>
+          </div>
+          <div class="text-center col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <div class="">
+              <a href="#" data-toggle="modal" data-target="#myModal3">
+                <img
+                  src="img/paints/p-3.jpg"
+                  alt=""
+                  class="img-fluid rounded shadow"
+                />
+              </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">
+                Rustex Texture
+              </p>
+              <a
+                href="#"
+                class="text-orange"
+                data-toggle="modal"
+                data-target="#myModal3"
               >
-                Submit
-              </button>
-            </form>
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+            <div class="modal fade" id="myModal3">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="position: relative">
+                  <div class="modal-body py-5 pl-5 pr-md-5">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12 col-xl-12 text-center">
+                          <img
+                            src="img/paints/p-3.jpg"
+                            alt=""
+                            class="img-fluid mb-4"
+                          />
+                        </div>
+                        <div class="col-md-12 col-lg-12 col-xl-12 mx-auto">
+                          <button
+                            type="button"
+                            class="close mt-2 rounded-circle"
+                            data-dismiss="modal"
+                            style="
+                              position: absolute;
+                              right: -1.1em;
+                              padding: 0.3em 0.5em;
+                              top: -13.5em;
+                              color: white;
+                              background: red !important;
+                            "
+                          >
+                            &times;
+                          </button>
+                          <div>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p style="font-size: 1.15em">
+                                A kitchen is the hub of any home; therefore, it
+                                is important that a kitchen is well planned.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design?
+                                <a href="contact.html" class="text-orange"
+                                  >Contact Us</a
+                                >
+                              </p>
+                              <p>
+                                <a href="#" style="color: #128c7e">
+                                  Leave us a message on
+
+                                  <i class="fab fa-2x fa-whatsapp ml-2"></i
+                                ></a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <div class="">
+              <a href="#" data-toggle="modal" data-target="#myModal4">
+                <img
+                  src="img/paints/p-4.jpg"
+                  alt=""
+                  class="img-fluid rounded shadow"
+                />
+              </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">Madi Orange</p>
+              <a
+                href="#"
+                class="text-orange"
+                data-toggle="modal"
+                data-target="#myModal4"
+              >
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+            <div class="modal fade" id="myModal4">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="position: relative">
+                  <div class="modal-body py-5 pl-5 pr-md-5">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12 col-xl-12 text-center">
+                          <img
+                            src="img/paints/p-4.jpg"
+                            alt=""
+                            class="img-fluid mb-4"
+                          />
+                        </div>
+                        <div class="col-md-12 col-lg-12 col-xl-12 mx-auto">
+                          <button
+                            type="button"
+                            class="close mt-2 rounded-circle"
+                            data-dismiss="modal"
+                            style="
+                              position: absolute;
+                              right: -1.1em;
+                              padding: 0.3em 0.5em;
+                              top: -13.5em;
+                              color: white;
+                              background: red !important;
+                            "
+                          >
+                            &times;
+                          </button>
+                          <div>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p style="font-size: 1.15em">
+                                It elevates the kitchen functionality beyond the
+                                standard working Triangle.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design?
+                                <a href="contact.html" class="text-orange"
+                                  >Contact Us</a
+                                >
+                              </p>
+                              <p>
+                                <a href="#" style="color: #128c7e">
+                                  Leave us a message on
+
+                                  <i class="fab fa-2x fa-whatsapp ml-2"></i
+                                ></a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <div class="">
+              <a href="#" data-toggle="modal" data-target="#myModal5">
+                <img
+                  src="img/paints/p-5.jpg"
+                  alt=""
+                  class="img-fluid rounded shadow"
+                />
+              </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">Blue Grey</p>
+              <a
+                href="#"
+                class="text-orange"
+                data-toggle="modal"
+                data-target="#myModal5"
+              >
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+            <div class="modal fade" id="myModal5">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="position: relative">
+                  <div class="modal-body py-5 pl-5 pr-md-5">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12 col-xl-12 text-center">
+                          <img
+                            src="img/paints/p-5.jpg"
+                            alt=""
+                            class="img-fluid mb-4"
+                          />
+                        </div>
+                        <div class="col-md-12 col-lg-12 col-xl-12 mx-auto">
+                          <button
+                            type="button"
+                            class="close mt-2 rounded-circle"
+                            data-dismiss="modal"
+                            style="
+                              position: absolute;
+                              right: -1.1em;
+                              padding: 0.3em 0.5em;
+                              top: -13.5em;
+                              color: white;
+                              background: red !important;
+                            "
+                          >
+                            &times;
+                          </button>
+                          <div>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p style="font-size: 1.15em">
+                                This single wall design of a modular kitchen is
+                                the ideal for a home that is looking to save on
+                                space.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design?
+                                <a href="contact.html" class="text-orange"
+                                  >Contact Us</a
+                                >
+                              </p>
+                              <p>
+                                <a href="#" style="color: #128c7e">
+                                  Leave us a message on
+
+                                  <i class="fab fa-2x fa-whatsapp ml-2"></i
+                                ></a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <div class="">
+              <a href="#" data-toggle="modal" data-target="#myModal6">
+                <img
+                  src="img/paints/p-6.jpg"
+                  alt=""
+                  class="img-fluid rounded shadow"
+                />
+              </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">Lotus Roller</p>
+              <a
+                href="#"
+                class="text-orange"
+                data-toggle="modal"
+                data-target="#myModal6"
+              >
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+            <div class="modal fade" id="myModal6">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="position: relative">
+                  <div class="modal-body py-5 pl-5 pr-md-5">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12 col-xl-12 text-center">
+                          <img
+                            src="img/paints/p-6.jpg"
+                            alt=""
+                            class="img-fluid mb-4"
+                          />
+                        </div>
+                        <div class="col-md-12 col-lg-12 col-xl-12 mx-auto">
+                          <button
+                            type="button"
+                            class="close mt-2 rounded-circle"
+                            data-dismiss="modal"
+                            style="
+                              position: absolute;
+                              right: -1.1em;
+                              padding: 0.3em 0.5em;
+                              top: -13.5em;
+                              color: white;
+                              background: red !important;
+                            "
+                          >
+                            &times;
+                          </button>
+                          <div>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p style="font-size: 1.15em">
+                                It elevates the kitchen functionality beyond the
+                                standard working Triangle.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design?
+                                <a href="contact.html" class="text-orange"
+                                  >Contact Us</a
+                                >
+                              </p>
+                              <p>
+                                <a href="#" style="color: #128c7e">
+                                  Leave us a message on
+
+                                  <i class="fab fa-2x fa-whatsapp ml-2"></i
+                                ></a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <div class="">
+              <a href="#" data-toggle="modal" data-target="#myModal7">
+                <img
+                  src="img/paints/p-7.jpg"
+                  alt=""
+                  class="img-fluid rounded shadow"
+                />
+              </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">Beige Rustic</p>
+              <a
+                href="#"
+                class="text-orange"
+                data-toggle="modal"
+                data-target="#myModal7"
+              >
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+            <div class="modal fade" id="myModal7">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="position: relative">
+                  <div class="modal-body py-5 pl-5 pr-md-5">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12 col-xl-12 text-center">
+                          <img
+                            src="img/paints/p-7.jpg"
+                            alt=""
+                            class="img-fluid mb-4"
+                          />
+                        </div>
+                        <div class="col-md-12 col-lg-12 col-xl-12 mx-auto">
+                          <button
+                            type="button"
+                            class="close mt-2 rounded-circle"
+                            data-dismiss="modal"
+                            style="
+                              position: absolute;
+                              right: -1.1em;
+                              padding: 0.3em 0.5em;
+                              top: -13.5em;
+                              color: white;
+                              background: red !important;
+                            "
+                          >
+                            &times;
+                          </button>
+                          <div>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p style="font-size: 1.15em">
+                                It elevates the kitchen functionality beyond the
+                                standard working Triangle.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design?
+                                <a href="contact.html" class="text-orange"
+                                  >Contact Us</a
+                                >
+                              </p>
+                              <p>
+                                <a href="#" style="color: #128c7e">
+                                  Leave us a message on
+
+                                  <i class="fab fa-2x fa-whatsapp ml-2"></i
+                                ></a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <div class="">
+              <a href="#" data-toggle="modal" data-target="#myModal8">
+                <img
+                  src="img/paints/p-8.jpg"
+                  alt=""
+                  class="img-fluid rounded shadow"
+                />
+              </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">
+                Wall Textures
+              </p>
+              <a
+                href="#"
+                class="text-orange"
+                data-toggle="modal"
+                data-target="#myModal8"
+              >
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+            <div class="modal fade" id="myModal8">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="position: relative">
+                  <div class="modal-body py-5 pl-5 pr-md-5">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12 col-xl-12 text-center">
+                          <img
+                            src="img/paints/p-8.jpg"
+                            alt=""
+                            class="img-fluid mb-4"
+                          />
+                        </div>
+                        <div class="col-md-12 col-lg-12 col-xl-12 mx-auto">
+                          <button
+                            type="button"
+                            class="close mt-2 rounded-circle"
+                            data-dismiss="modal"
+                            style="
+                              position: absolute;
+                              right: -1.1em;
+                              padding: 0.3em 0.5em;
+                              top: -13.5em;
+                              color: white;
+                              background: red !important;
+                            "
+                          >
+                            &times;
+                          </button>
+                          <div>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p style="font-size: 1.15em">
+                                This is ideal for accomplishing your daily tasks
+                                while also being an attractive set of design.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design?
+                                <a href="contact.html" class="text-orange"
+                                  >Contact Us</a
+                                >
+                              </p>
+                              <p>
+                                <a href="#" style="color: #128c7e">
+                                  Leave us a message on
+
+                                  <i class="fab fa-2x fa-whatsapp ml-2"></i
+                                ></a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <div class="">
+              <a href="#" data-toggle="modal" data-target="#myModal9">
+                <img
+                  src="img/paints/p-9.jpg"
+                  alt=""
+                  class="img-fluid rounded shadow"
+                />
+              </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">
+                Acrylic Texture
+              </p>
+              <a
+                href="#"
+                class="text-orange"
+                data-toggle="modal"
+                data-target="#myModal9"
+              >
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+            <div class="modal fade" id="myModal9">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="position: relative">
+                  <div class="modal-body py-5 pl-5 pr-md-5">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12 col-xl-12 text-center">
+                          <img
+                            src="img/paints/p-9.jpg"
+                            alt=""
+                            class="img-fluid mb-4"
+                          />
+                        </div>
+                        <div class="col-md-12 col-lg-12 col-xl-12 mx-auto">
+                          <button
+                            type="button"
+                            class="close mt-2 rounded-circle"
+                            data-dismiss="modal"
+                            style="
+                              position: absolute;
+                              right: -1.1em;
+                              padding: 0.3em 0.5em;
+                              top: -13.5em;
+                              color: white;
+                              background: red !important;
+                            "
+                          >
+                            &times;
+                          </button>
+                          <div>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p style="font-size: 1.15em">
+                                This is ideal for accomplishing your daily tasks
+                                while also being an attractive set of design.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design?
+                                <a href="contact.html" class="text-orange"
+                                  >Contact Us</a
+                                >
+                              </p>
+                              <p>
+                                <a href="#" style="color: #128c7e">
+                                  Leave us a message on
+
+                                  <i class="fab fa-2x fa-whatsapp ml-2"></i
+                                ></a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <div class="">
+              <a href="#" data-toggle="modal" data-target="#myModal10">
+                <img
+                  src="img/paints/p-10.jpg"
+                  alt=""
+                  class="img-fluid rounded shadow"
+                />
+              </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">
+                Metalic Texture
+              </p>
+              <a
+                href="#"
+                class="text-orange"
+                data-toggle="modal"
+                data-target="#myModal10"
+              >
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+            <div class="modal fade" id="myModal10">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="position: relative">
+                  <div class="modal-body py-5 pl-5 pr-md-5">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12 col-xl-12 text-center">
+                          <img
+                            src="img/paints/p-10.jpg"
+                            alt=""
+                            class="img-fluid mb-4"
+                          />
+                        </div>
+                        <div class="col-md-12 col-lg-12 col-xl-12 mx-auto">
+                          <button
+                            type="button"
+                            class="close mt-2 rounded-circle"
+                            data-dismiss="modal"
+                            style="
+                              position: absolute;
+                              right: -1.1em;
+                              padding: 0.3em 0.5em;
+                              top: -13.5em;
+                              color: white;
+                              background: red !important;
+                            "
+                          >
+                            &times;
+                          </button>
+                          <div>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p style="font-size: 1.15em">
+                                This is ideal for accomplishing your daily tasks
+                                while also being an attractive set of design.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design?
+                                <a href="contact.html" class="text-orange"
+                                  >Contact Us</a
+                                >
+                              </p>
+                              <p>
+                                <a href="#" style="color: #128c7e">
+                                  Leave us a message on
+
+                                  <i class="fab fa-2x fa-whatsapp ml-2"></i
+                                ></a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <div class="">
+              <a href="#" data-toggle="modal" data-target="#myModal11">
+                <img
+                  src="img/paints/p-11.jpg"
+                  alt=""
+                  class="img-fluid rounded shadow"
+                />
+              </a>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <p class="mt-3 text-muted border-right pr-2 mr-2">
+                Rustic Pattern
+              </p>
+              <a
+                href="#"
+                class="text-orange"
+                data-toggle="modal"
+                data-target="#myModal11"
+              >
+                <i class="fas fa-heart mr-1"></i> Love
+              </a>
+            </div>
+            <div class="modal fade" id="myModal11">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="position: relative">
+                  <div class="modal-body py-5 pl-5 pr-md-5">
+                    <div class="">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12 col-xl-12 text-center">
+                          <img
+                            src="img/paints/p-11.jpg"
+                            alt=""
+                            class="img-fluid mb-4"
+                          />
+                        </div>
+                        <div class="col-md-12 col-lg-12 col-xl-12 mx-auto">
+                          <button
+                            type="button"
+                            class="close mt-2 rounded-circle"
+                            data-dismiss="modal"
+                            style="
+                              position: absolute;
+                              right: -1.1em;
+                              padding: 0.3em 0.5em;
+                              top: -13.5em;
+                              color: white;
+                              background: red !important;
+                            "
+                          >
+                            &times;
+                          </button>
+                          <div>
+                            <div class="text-muted border-bottom pb-3 mr-4">
+                              <p style="font-size: 1.15em">
+                                This is ideal for accomplishing your daily tasks
+                                while also being an attractive set of design.
+                              </p>
+                            </div>
+                            <div class="pt-3 text-muted">
+                              <p class="mr-4">
+                                Like this design?
+                                <a href="contact.html" class="text-orange"
+                                  >Contact Us</a
+                                >
+                              </p>
+                              <p>
+                                <a href="#" style="color: #128c7e">
+                                  Leave us a message on
+
+                                  <i class="fab fa-2x fa-whatsapp ml-2"></i
+                                ></a>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+            <div
+              class="py-5 px-5 text-center rounded"
+              style="background-color: #fff9ef"
+            >
+              <i class="far fa-lg fa-heart mb-3 text-danger"></i>
+              <h3 class="mb-2 text-purple" style="letter-spacing: -1px">
+                Found a pattern you love?
+              </h3>
+              <a
+                href="contact.html"
+                class="btn bg-red text-white mt-3 py-2 px-3 shadow"
+                >Contact Us</a
+              >
+            </div>
           </div>
         </div>
       </div>
