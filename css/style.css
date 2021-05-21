@@ -114,10 +114,25 @@ a.call,
 }
 
 .left-paint-bg {
-  background: url(https://homepimp.files.wordpress.com/2019/03/textured-paint-texture-wall-ideas-bedroom-texture-paint-designs-textures-interior-walls-bedroom.jpg?w=840);
-  background-position: center;
-  background-size: cover;
-  height: 450px;
+  /* background: url(https://homepimp.files.wordpress.com/2019/03/textured-paint-texture-wall-ideas-bedroom-texture-paint-designs-textures-interior-walls-bedroom.jpg?w=840); */
+  /* background-position: center; */
+  /* background-size: cover; */
+  overflow: hidden;
+  height: 500px;
+}
+
+#slideshow {
+  position: relative;
+  width: 100%;
+}
+
+#slideshow > div {
+  position: absolute;
+  width: 100%;
+}
+
+#slideshow img {
+  width: 100%;
 }
 
 .left-kit-bg {
