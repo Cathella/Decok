@@ -258,7 +258,12 @@ h1 {
   font-family: "Vollkorn", serif;
 }
 
-h1 span {
+.logo {
+  font-size: 1.7em;
+}
+
+h1 span,
+.logo {
   font-family: "Vollkorn", serif;
 }
 
