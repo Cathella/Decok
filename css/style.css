@@ -59,7 +59,7 @@ a.call,
 
 .left-ward-bg {
   background-image: url(../img/decok7.jpeg);
-  background-position: top center;
+  background-position: center center;
   background-size: cover;
   height: 450px;
 }
@@ -72,7 +72,7 @@ a.call,
 }
 
 .design-brief-bg {
-  background-image: url(../img/process.jpg);
+  background-image: url(../img/02-brief.jpg);
   background-position: center;
   background-size: cover;
   height: 200px;
@@ -86,24 +86,24 @@ a.call,
 }
 
 .inspect-bg {
-  background-image: url(../img/inspect.jpg);
+  background-image: url(../img/07-handover.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+
+.install-bg {
+  background-image: url(../img/06-install.jpg);
   background-position: center;
   background-size: cover;
   height: 300px;
 }
 
-.install-bg {
-  background-image: url(../img/install.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 400px;
-}
-
 .decide-bg {
-  background-image: url(../img/decide.jpg);
+  background-image: url(../img/01-decide.jpg);
   background-position: center;
   background-size: cover;
-  height: 200px;
+  height: 150px;
 }
 
 .left-bed-bg {
@@ -196,7 +196,7 @@ a.call,
 
 .item-paint {
   height: 350px;
-  background: url(../img/paints/p-11.jpg);
+  background: url(../img/paints/p-1.webp);
   background-size: cover;
 }
 
@@ -712,6 +712,10 @@ input[name="r"] {
 
   footer {
     padding: 0 2em;
+  }
+
+  .left-paint-bg {
+    height: 300px;
   }
 }
 
