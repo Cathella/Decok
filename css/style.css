@@ -136,7 +136,7 @@ a.call,
 }
 
 .left-kit-bg {
-  background-image: url(../img/L1-shape.webp);
+  background-image: url(../img/L1-shape.png);
   background-position: center;
   background-size: cover;
   height: 450px;
@@ -196,7 +196,7 @@ a.call,
 
 .item-paint {
   height: 350px;
-  background: url(../img/paints/p-1.webp);
+  background: url(../img/paints/p-1.png);
   background-size: cover;
 }
 
